@@ -494,10 +494,10 @@ public class FragmentHandbook extends Fragment {
         listDataHeader = new ArrayList<String>();
         listDataChild = new HashMap<>();
 
-        listDataHeader.add("Primer");
+        listDataHeader.add("Introduction");
         listDataHeader.add("Admission and Retention");
         listDataHeader.add("Academic Rules and Regulations");
-        listDataHeader.add("Academic Freedom and Student Duties and Responsibilities");
+        listDataHeader.add("Student Duties and Responsibilities");
         listDataHeader.add("Student Services");
         listDataHeader.add("Student Publication");
         listDataHeader.add("Campus Organizations");
@@ -510,57 +510,56 @@ public class FragmentHandbook extends Fragment {
         primir.add("UCU Programs");
 
         List<String> s1 = new ArrayList<String>();
-        s1.add("A. Admission");
-        s1.add("B. Academic Retention");
-        s1.add("C. Registration Procedures");
-        s1.add("D. Curriculum Revision and Implementation");
-        s1.add("E. Classification of Students");
-        s1.add("F. Scholarship and Grants for Students");
+        s1.add("Admission");
+        s1.add("Academic Retention");
+        s1.add("Registration Procedures");
+        s1.add("Curriculum Revision and Implementation");
+        s1.add("Classification of Students");
+        s1.add("Scholarship and Grants for Students");
 
         List<String> s2 = new ArrayList<String>();
-        s2.add("A. School Terms");
-        s2.add("B. Class Hours");
-        s2.add("C. Academic Load");
-        s2.add("D. Grading System");
-        s2.add("E. Graduation Requirements");
-        s2.add("F. Citations/Awards");
-        s2.add("G. School Credentials");
-        s2.add("H. Tuition and Miscellaneous Fees");
+        s2.add("School Terms");
+        s2.add("Class Hours");
+        s2.add("Academic Load");
+        s2.add("Grading System");
+        s2.add("Graduation Requirements");
+        s2.add("Citations/Awards");
+        s2.add("School Credentials");
+        s2.add("Tuition and Miscellaneous Fees");
 
         List<String> s3 = new ArrayList<String>();
-        s3.add("A. Academic Freedom as the Right of an Individual Student");
-        s3.add("B. Duties and Responsibilities of Students");
+        s3.add("Academic Freedom as the Right of an Individual Student");
+        s3.add("Duties and Responsibilities of Students");
 
         List<String> s4 = new ArrayList<String>();
-        s4.add("A. Office of Student Affairs(OSA)");
-        s4.add("B. Guidance Office");
-        s4.add("C. Library");
-        s4.add("D. Multi-Media Library");
-        s4.add("E. Audio-Visual Room");
-        s4.add("F. Laboratories");
-        s4.add("G. Enhancement Services");
-        s4.add("H. Sports Development Services");
-        s4.add("I. Medical/Dental/Nursing Services");
-        s4.add("J. Security Services");
-        s4.add("K. Janitotial Services");
-        s4.add("L. Canteen");
+        s4.add("Office of Student Affairs(OSA)");
+        s4.add("Guidance Office");
+        s4.add("Library");
+        s4.add("Multi-Media Library");
+        s4.add("Audio-Visual Room");
+        s4.add("Laboratories");
+        s4.add("Enhancement Services");
+        s4.add("Sports Development Services");
+        s4.add("Medical/Dental/Nursing Services");
+        s4.add("Security Services");
+        s4.add("Janitotial Services");
+        s4.add("Canteen");
 
         List<String> s5 = new ArrayList<String>();
-        s5.add("I. Definition");
-        s5.add("II. Recognition");
-        s5.add("III. Printing and Circulation");
-        s5.add("IV. Editorial Board and Staff Selection");
-
+        s5.add("Definition");
+        s5.add("Recognition");
+        s5.add("Printing and Circulation");
+        s5.add("Editorial Board and Staff Selection");
         // Adding child data for Section6
         List<String> s6 = new ArrayList<String>();
-        s6.add("A. General Policies");
-        s6.add("B. Specific Policies");
+        s6.add("General Policies");
+        s6.add("Specific Policies");
 
         // Adding child data for Sectio7
         List<String> s7 = new ArrayList<String>();
-        s7.add("I. General Policy");
-        s7.add("II. Student Discipline");
-        s7.add("III. Types of Offenses");
+        s7.add("General Policy");
+        s7.add("Student Discipline");
+        s7.add("Types of Offenses");
 
         listDataChild.put(listDataHeader.get(0), primir);
         listDataChild.put(listDataHeader.get(1), s1);
