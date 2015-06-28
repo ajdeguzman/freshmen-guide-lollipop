@@ -1523,6 +1523,9 @@ of and the action asked for.</p>
    ]]>
     </string>
         <string name="title_activity_dummy">dummy</string>
+    <string name="title_activity_fragment_courses_offered">FragmentCoursesOffered</string>
+
+    <string name="hello_world">Hello world!</string>
 </resources>
 
 

@@ -233,7 +233,7 @@ public class PolicyViewing extends ActionBarActivity {
         int id = item.getItemId();
 
         if (id == android.R.id.home) {
-			super.onBackPressed();
+            this.finish();
         }
 
         return super.onOptionsItemSelected(item);

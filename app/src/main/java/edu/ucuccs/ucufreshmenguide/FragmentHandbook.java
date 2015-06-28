@@ -54,8 +54,12 @@ public class FragmentHandbook extends Fragment {
         });
 
         expListView.setOnGroupExpandListener(new OnGroupExpandListener() {
+            int previousGroup = -1;
             @Override
             public void onGroupExpand(int groupPosition) {
+                if(groupPosition != previousGroup)
+                    expListView.collapseGroup(previousGroup);
+                previousGroup = groupPosition;
 
             }
         });

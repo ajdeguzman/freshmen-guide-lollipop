@@ -7,6 +7,8 @@
     <ExpandableListView
         android:divider="#EFEFEF"
         android:id="@+id/listView"
+        android:choiceMode="singleChoice"
+        android:childDivider="#EFEFEF"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:cacheColorHint="#EFEFEF" />
