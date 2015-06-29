@@ -2,6 +2,7 @@ package edu.ucuccs.ucufreshmenguide;
 
 import android.app.Fragment;
 import android.app.ProgressDialog;
+import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -19,6 +20,7 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.maps.android.ui.IconGenerator;
 
 public class FragmentCampusMap extends Fragment {
 
@@ -75,167 +77,167 @@ public class FragmentCampusMap extends Fragment {
                 .image(BitmapDescriptorFactory.fromResource(R.drawable.ucu_map))
                 .position(UCU, 8600f, 6500f);
         GroundOverlay imageOverlay = map.addGroundOverlay(newarkMap);*/
-        //IconGenerator icon = new IconGenerator(getActivity());
+        IconGenerator icon = new IconGenerator(getActivity());
 
         // Gymnasium
-       // icon.setStyle(IconGenerator.STYLE_BLUE);
-       //Bitmap iconBitmap = icon.makeIcon("Gymnasium");
+        icon.setStyle(IconGenerator.STYLE_BLUE);
+        Bitmap iconBitmap = icon.makeIcon("Gymnasium");
 
         marker1 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9786106, 120.5608737)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap)));
 
         // Orata Building
-        /*icon.setStyle(IconGenerator.STYLE_GREEN);
-        Bitmap iconBitmap2 = icon.makeIcon("Orata Building");*/
+        icon.setStyle(IconGenerator.STYLE_GREEN);
+        Bitmap iconBitmap2 = icon.makeIcon("Orata Building");
 
         marker2 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9803493, 120.5603938)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap2)));
 
         // New Building
-       /* icon.setStyle(IconGenerator.STYLE_GREEN);
-        Bitmap iconBitmap3 = icon.makeIcon("New Building");*/
+       icon.setStyle(IconGenerator.STYLE_GREEN);
+        Bitmap iconBitmap3 = icon.makeIcon("New Building");
 
         marker3 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9799419, 120.5607604)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap3)));
 
         // Engineering Building
-       /* icon.setStyle(IconGenerator.STYLE_PURPLE);
-        Bitmap iconBitmap4 = icon.makeIcon("Engineering Building");*/
+        icon.setStyle(IconGenerator.STYLE_PURPLE);
+        Bitmap iconBitmap4 = icon.makeIcon("Engineering Building");
 
         marker4 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9801533, 120.5602726)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap4)));
 
         // Orata Building 2
-        /*icon.setStyle(IconGenerator.STYLE_BLUE);
-        Bitmap iconBitmap5 = icon.makeIcon("Orata Building 2");*/
+        icon.setStyle(IconGenerator.STYLE_BLUE);
+        Bitmap iconBitmap5 = icon.makeIcon("Orata Building 2");
 
         marker5 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.979417, 120.560476)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap5)));
 
         // Quadrangle
-        /*icon.setStyle(IconGenerator.STYLE_GREEN);
-        Bitmap iconBitmap6 = icon.makeIcon("Quadrangle");*/
+        icon.setStyle(IconGenerator.STYLE_GREEN);
+        Bitmap iconBitmap6 = icon.makeIcon("Quadrangle");
 
         marker6 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9799959, 120.5610247)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap6)));
 
         // AVR
-      /*  icon.setStyle(IconGenerator.STYLE_PURPLE);
-        Bitmap iconBitmap7 = icon.makeIcon("AVR");*/
+        icon.setStyle(IconGenerator.STYLE_PURPLE);
+        Bitmap iconBitmap7 = icon.makeIcon("AVR");
 
         marker7 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9803453, 120.5617596)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap7)));
 
         // Accounting
-       /* icon.setStyle(IconGenerator.STYLE_GREEN);
-        Bitmap iconBitmap8 = icon.makeIcon("Accounting");*/
+        icon.setStyle(IconGenerator.STYLE_GREEN);
+        Bitmap iconBitmap8 = icon.makeIcon("Accounting");
 
         marker8 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9803681, 120.5615921)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap8)));
 
         // Green Home
-        /*icon.setStyle(IconGenerator.STYLE_GREEN);
-        Bitmap iconBitmap9 = icon.makeIcon("Green Home");*/
+        icon.setStyle(IconGenerator.STYLE_GREEN);
+        Bitmap iconBitmap9 = icon.makeIcon("Green Home");
 
         marker9 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9796589, 120.5607035)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap9)));
 
         // Green Home 2
-        /*icon.setStyle(IconGenerator.STYLE_GREEN);
-        Bitmap iconBitmap10 = icon.makeIcon("Green Home 2");*/
+        icon.setStyle(IconGenerator.STYLE_GREEN);
+        Bitmap iconBitmap10 = icon.makeIcon("Green Home 2");
 
         marker10 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.979793, 120.5603709)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap10)));
 
         // MAPEH Office
-        /*icon.setStyle(IconGenerator.STYLE_ORANGE);
-        Bitmap iconBitmap11 = icon.makeIcon("MAPEH Office");*/
+        icon.setStyle(IconGenerator.STYLE_ORANGE);
+        Bitmap iconBitmap11 = icon.makeIcon("MAPEH Office");
 
         marker11 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9782706, 120.5608631)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap11)));
 
         // Canteen
-       /* icon.setStyle(IconGenerator.STYLE_PURPLE);
-        Bitmap iconBitmap14 = icon.makeIcon("Canteen");*/
+        icon.setStyle(IconGenerator.STYLE_PURPLE);
+        Bitmap iconBitmap14 = icon.makeIcon("Canteen");
 
         marker14 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9797863, 120.561579)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap14)));
 
         // Orata Park
-        /*icon.setStyle(IconGenerator.STYLE_GREEN);
-        Bitmap iconBitmap15 = icon.makeIcon("Orata Park");*/
+        icon.setStyle(IconGenerator.STYLE_GREEN);
+        Bitmap iconBitmap15 = icon.makeIcon("Orata Park");
 
         marker15 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9799288, 120.5615552)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap15)));
 
         // Registrar Office
-        /*icon.setStyle(IconGenerator.STYLE_BLUE);
-        Bitmap iconBitmap16 = icon.makeIcon("Registrar Office");*/
+        icon.setStyle(IconGenerator.STYLE_BLUE);
+        Bitmap iconBitmap16 = icon.makeIcon("Registrar Office");
 
         marker16 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9800837, 120.56169522)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap16)));
 
         // DBC Room
-       /* icon.setStyle(IconGenerator.STYLE_BLUE);
-        Bitmap iconBitmap17 = icon.makeIcon("DBC Room");*/
+        icon.setStyle(IconGenerator.STYLE_BLUE);
+        Bitmap iconBitmap17 = icon.makeIcon("DBC Room");
 
         marker17 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9805233, 120.561192)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap17)));
 
         // Honasan Hall
-        /*icon.setStyle(IconGenerator.STYLE_GREEN);
-        Bitmap iconBitmap18 = icon.makeIcon("Honasan Hall");*/
+        icon.setStyle(IconGenerator.STYLE_GREEN);
+        Bitmap iconBitmap18 = icon.makeIcon("Honasan Hall");
 
         marker18 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9804238, 120.5610754)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap18)));
 
         // Badar
-        /*icon.setStyle(IconGenerator.STYLE_PURPLE);
-        Bitmap iconBitmap19 = icon.makeIcon("Badar");*/
+        icon.setStyle(IconGenerator.STYLE_PURPLE);
+        Bitmap iconBitmap19 = icon.makeIcon("Badar");
 
         marker19 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9805181, 120.56098)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap19)));
 
         // Square Garden
-        /*icon.setStyle(IconGenerator.STYLE_ORANGE);
-        Bitmap iconBitmap20 = icon.makeIcon("Square Garden");*/
+        icon.setStyle(IconGenerator.STYLE_ORANGE);
+        Bitmap iconBitmap20 = icon.makeIcon("Square Garden");
 
         marker20 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9804696, 120.560826)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap20)));
 
         // President Office
-        /*icon.setStyle(IconGenerator.STYLE_BLUE);
-        Bitmap iconBitmap21 = icon.makeIcon("President Office");*/
+        icon.setStyle(IconGenerator.STYLE_BLUE);
+        Bitmap iconBitmap21 = icon.makeIcon("President Office");
 
         marker21 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.980277, 120.5616515)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap21)));
 
         // Cashier
-        /*icon.setStyle(IconGenerator.STYLE_ORANGE);
-        Bitmap iconBitmap22 = icon.makeIcon("Cashier");*/
+        icon.setStyle(IconGenerator.STYLE_ORANGE);
+        Bitmap iconBitmap22 = icon.makeIcon("Cashier");
 
         marker22 = map.addMarker(new MarkerOptions().position(
                 new LatLng(15.9803064, 120.5615745)).icon(
-                BitmapDescriptorFactory.fromResource(R.drawable.ic_marker)));
+                BitmapDescriptorFactory.fromBitmap(iconBitmap22)));
 
          /*map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
             @Override

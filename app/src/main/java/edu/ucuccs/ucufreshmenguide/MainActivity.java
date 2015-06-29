@@ -44,6 +44,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerC
         Fragment fhandbook= new FragmentHandbook();
         Fragment fcontactUs = new FragmentContactUs();
         Fragment fstudOrg = new FragmentStudentOrg();
+        Fragment fCourses = new FragmentCoursesOffered();
         FragmentTransaction t = getFragmentManager().beginTransaction();
         switch (position) {
             case 0: //search //todo
@@ -58,7 +59,10 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerC
                 t.addToBackStack(null);
                 t.commit();
                 break;
-            case 3: //settings //todo
+            case 3: //my account //todo
+                t.replace(R.id.container, fCourses);
+                t.addToBackStack(null);
+                t.commit();
                 break;
             case 5: //stud_org
                 t.replace(R.id.container, fstudOrg);
