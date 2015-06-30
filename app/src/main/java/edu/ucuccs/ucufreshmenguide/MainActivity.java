@@ -45,9 +45,13 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerC
         Fragment fcontactUs = new FragmentContactUs();
         Fragment fstudOrg = new FragmentStudentOrg();
         Fragment fCourses = new FragmentCoursesOffered();
+        Fragment fHome = new FragmentHome();
         FragmentTransaction t = getFragmentManager().beginTransaction();
         switch (position) {
-            case 0: //search //todo
+            case 0:
+                t.replace(R.id.container, fHome);
+                t.addToBackStack(null);
+                t.commit();
                 break;
             case 1:
                 t.replace(R.id.container, fhandbook);

@@ -13,186 +13,16 @@
         android:layout_height="wrap_content"
         gesture-image:max-scale="10.0"
         gesture-image:min-scale="0.75" />
-    <!--<LinearLayout
-  android:layout_width="fill_parent"
-  android:layout_height="fill_parent"
-  android:layout_weight="1"
-  android:background="#D3D6DB"
-  android:orientation="vertical" >
-
-      <TextView
-          android:id="@+id/textView"
-          android:layout_width="fill_parent"
-          android:layout_height="wrap_content"
-          android:layout_marginBottom="5dp"
-          android:background="#0D967A"
-          android:padding="5dp"
-          android:text="Urdaneta City University"
-          android:textColor="#FFFFFF"
-          android:textSize="15sp" />
-
-      <LinearLayout
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_marginLeft="5dp"
-          android:layout_marginRight="5dp"
-          android:paddingTop="10dp"
-          android:background="#FFFFFF"
-          android:orientation="horizontal"
-          android:paddingLeft="10dp" >
-
-          <ImageView
-              android:id="@+id/ucuLocation"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:src="@drawable/ic_action_place"
-              android:layout_marginBottom="10dp"/>
-
-          <TextView
-              android:id="@+id/textView2"
-              android:textColor="#616161"
-              android:layout_width="fill_parent"
-              android:layout_height="wrap_content"
-              android:layout_weight="1"
-              android:padding="5dp"
-              android:text="#1 San Vicente West, Urdaneta City, \n Pangasinan 2428, Philippines"
-              android:textSize="12sp" />
-      </LinearLayout>
-
-      <LinearLayout
-          android:layout_width="fill_parent"
-          android:layout_height="wrap_content"
-          android:layout_marginLeft="5dp"
-          android:layout_marginRight="5dp"
-          android:background="#FFFFFF"
-          android:orientation="horizontal"
-          android:paddingLeft="10dp">
-
-          <ImageView
-              android:id="@+id/contact"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:src="@drawable/ic_action_call" />
-
-          <TextView
-              android:id="@+id/textView3"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:padding="5dp"
-              android:text="Tel. Nos.:"
-              android:textColor="#616161"
-              android:textSize="12sp" />
-
-          <TextView
-              android:id="@+id/tell1"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:autoLink="all"
-              android:clickable="true"
-              android:padding="5dp"
-              android:text="568-7612"
-              android:textColor="#000000"
-              android:textSize="12sp" />
-
-          <TextView
-              android:id="@+id/textView5"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:padding="5dp"
-              android:text="or"
-              android:textColor="#616161"
-              android:textSize="12sp" />
-
-          <TextView
-              android:id="@+id/tell2"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:autoLink="all"
-              android:clickable="true"
-              android:padding="5dp"
-              android:text="568-2475"
-              android:textColor="#000000"
-              android:textSize="12sp" />
-      </LinearLayout>
-
-      <LinearLayout
-          android:layout_width="fill_parent"
-          android:layout_height="wrap_content"
-          android:layout_marginLeft="5dp"
-          android:layout_marginRight="5dp"
-          android:background="#FFFFFF"
-          android:orientation="horizontal"
-          android:paddingLeft="10dp">
-
-          <ImageView
-              android:id="@+id/websiteIcon"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:src="@drawable/ic_action_web_site" />
-
-          <TextView
-              android:id="@+id/textView4"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:padding="5dp"
-              android:text="Website:"
-              android:textColor="#616161"
-              android:textSize="12sp" />
-
-          <TextView
-              android:id="@+id/website"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:autoLink="web"
-              android:clickable="true"
-              android:padding="5dp"
-              android:text="http://www.ucu.edu.ph/"
-              android:textColor="#000000"
-              android:textSize="12sp" />
-      </LinearLayout>
-
-      <LinearLayout
-          android:layout_width="fill_parent"
-          android:layout_height="fill_parent"
-          android:layout_marginBottom="5dp"
-          android:layout_marginLeft="5dp"
-          android:layout_marginRight="5dp"
-          android:background="#FFFFFF"
-          android:gravity="center"
-          android:orientation="horizontal" >
-
-          <Button
-              android:id="@+id/btn_fb"
-              android:layout_width="50dp"
-              android:layout_height="wrap_content"
-              android:layout_margin="5dp"
-              android:background="@drawable/facebook" />
-
-          <Button
-              android:id="@+id/btn_email"
-              android:layout_width="48dp"
-              android:layout_height="wrap_content"
-              android:layout_margin="5dp"
-              android:background="@drawable/gmail" />
-
-          <Button
-              android:id="@+id/btn_scribe"
-              android:layout_width="50dp"
-              android:layout_height="wrap_content"
-              android:layout_margin="5dp"
-              android:background="@drawable/scribe" />
-      </LinearLayout>
-  </LinearLayout>-->
     <ImageView
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:id="@+id/imageView"
+        android:id="@+id/btnMenuContacts"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_margin="16dp"
         android:background="@drawable/floating_button"
-        android:src="@drawable/ic_local_phone"
+        android:src="@drawable/ic_list"
         android:padding="16dp"/>
 
     <TextView
@@ -203,38 +33,110 @@
         android:padding="10dp"
         android:text="Urdaneta City University"
         android:textColor="#FFFFFF"
-        android:id="@+id/textView3"
+        android:id="@+id/textView34"
         android:layout_below="@+id/imgChart" />
 
     <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView3"
+        android:orientation="vertical"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:layout_marginTop="10dp"
         android:padding="10dp"
         android:layout_margin="20dp"
         android:background="#FFFFFF"
-        android:paddingLeft="10dp">
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
-        <ImageView
-            android:id="@+id/ucuLocation"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_action_place"
-            android:layout_marginBottom="10dp"/>
-
-        <TextView
-            android:id="@+id/textView2"
-            android:textColor="#616161"
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_below="@+id/textView3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
             android:padding="5dp"
-            android:text="#1 San Vicente West, Urdaneta City, \n Pangasinan 2428, Philippines"
-            android:textSize="12sp" />
+            android:background="#FFFFFF"
+            android:paddingLeft="0dp">
 
+            <ImageView
+                android:id="@+id/ucuLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_place"
+                android:layout_marginBottom="0dp"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:textColor="#616161"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="#1 San Vicente West, Urdaneta City, \n Pangasinan 2428, Philippines"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="5dp"
+            android:background="#FFFFFF"
+            android:paddingLeft="0dp">
+
+            <ImageView
+                android:id="@+id/ucuLocation2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_action_web_site"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView22"
+                android:textColor="#616161"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:padding="5dp"
+                android:text="http://www.ucu.edu.ph"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="5dp"
+            android:background="#FFFFFF"
+            android:paddingLeft="0dp">
+
+            <ImageView
+                android:id="@+id/ucuWebsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_call"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:textColor="#616161"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="(075) 568-2475"
+                android:textSize="15sp" />
+
+        </LinearLayout>
     </LinearLayout>
+
 </RelativeLayout>

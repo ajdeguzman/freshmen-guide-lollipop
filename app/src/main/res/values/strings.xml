@@ -21,6 +21,12 @@
     <string name="btnlabel_list_org">LIST OF ORGANIZATIONS</string>
     <string name="title_activity_fragment_campus_map">FragmentCampusMap</string>
 
+
+	<string name="contact_map">Where is UCU?</string>
+	<string name="contact_website">Visit Website</string>
+	<string name="contact_email">Send an E-mail</string>
+	<string name="contact_phone">Call Us</string>
+
         <!-- Primir Starts -->
     <string name="primir">
 <![CDATA[
@@ -1526,6 +1532,7 @@ of and the action asked for.</p>
     <string name="title_activity_fragment_courses_offered">FragmentCoursesOffered</string>
 
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fragment_home">FragmentHome</string>
 </resources>
 
 
