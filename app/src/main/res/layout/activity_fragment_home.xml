@@ -11,4 +11,5 @@
         android:maxHeight="0dp"
         android:scaleType="centerCrop"
         android:src="@drawable/main_facade" />
+
 </FrameLayout>

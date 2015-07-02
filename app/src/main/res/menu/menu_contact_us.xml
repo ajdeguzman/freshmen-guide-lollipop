@@ -1,6 +1,6 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/contact_website" android:title="@string/contact_website" android:icon="@drawable/ic_action_web_site"/>
-    <item android:id="@+id/contact_map" android:title="@string/contact_map" android:icon="@drawable/ic_action_place"/>
-    <item android:id="@+id/contact_email" android:title="@string/contact_email" android:icon="@drawable/gmail"/>
-    <item android:id="@+id/contact_phone" android:title="@string/contact_phone" android:icon="@drawable/ic_call"/>
+    <item android:id="@+id/contact_website" android:title="@string/contact_website" android:icon="@mipmap/ic_website"/>
+    <item android:id="@+id/contact_map" android:title="@string/contact_map" android:icon="@mipmap/ic_place"/>
+    <item android:id="@+id/contact_email" android:title="@string/contact_email" android:icon="@mipmap/ic_mail"/>
+    <item android:id="@+id/contact_phone" android:title="@string/contact_phone" android:icon="@mipmap/ic_call"/>
 </menu>
