@@ -13,9 +13,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.andexert.library.RippleView;
 import com.cocosw.bottomsheet.BottomSheet;
 
 import java.util.List;
@@ -24,14 +24,14 @@ public class FragmentContactUs extends Fragment {
     public static final String TAG = "handbook";
 
     private ArrayAdapter<String> adapter;
-    private ImageView btnMenuContacts;
+    private RippleView btnMenuContacts;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_contactus, container, false);
-        btnMenuContacts = (ImageView)rootView.findViewById(R.id.btnMenuContacts);
+        btnMenuContacts = (RippleView)rootView.findViewById(R.id.btnMenuContacts);
         btnMenuContacts.bringToFront();
         btnMenuContacts.setOnClickListener(new View.OnClickListener() {
             @Override

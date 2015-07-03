@@ -13,10 +13,16 @@
         android:layout_height="wrap_content"
         gesture-image:max-scale="10.0"
         gesture-image:min-scale="0.75" />
+    <com.andexert.library.RippleView
+        android:id="@+id/btnMenuContacts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        rv_centered="true">
     <ImageView
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:id="@+id/btnMenuContacts"
+        android:id="@+id/btnMenuContacts2"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -24,6 +30,7 @@
         android:background="@drawable/floating_button"
         android:src="@mipmap/ic_list"
         android:padding="16dp"/>
+    </com.andexert.library.RippleView>
 
     <TextView
         android:layout_width="fill_parent"

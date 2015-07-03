@@ -30,4 +30,5 @@ dependencies {
     compile 'com.google.android.gms:play-services:7.0.0'
     compile 'com.google.maps.android:android-maps-utils:0.3+'
     compile 'com.cocosw:bottomsheet:1.+@aar'
+    compile 'com.github.traex.rippleeffect:library:1.3'
 }

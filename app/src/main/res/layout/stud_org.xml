@@ -41,7 +41,12 @@
             android:id="@+id/textView2" />
 
     </LinearLayout>
-
+    <com.andexert.library.RippleView
+        android:id="@+id/more"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        rv_centered="true">
     <Button
         android:textColor="#FFF"
         android:foreground="?android:attr/selectableItemBackground"
@@ -53,6 +58,13 @@
         android:id="@+id/button"
         android:layout_gravity="center_horizontal" />
 
+    </com.andexert.library.RippleView>
+    <com.andexert.library.RippleView
+        android:id="@+id/more2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        rv_centered="true">
     <Button
         android:textColor="#FFF"
         android:layout_margin="10dp"
@@ -62,5 +74,6 @@
         android:text="@string/btnlabel_list_org"
         android:id="@+id/btnStudOrg"
         android:layout_gravity="center_horizontal" />
+    </com.andexert.library.RippleView>
 
 </LinearLayout>
