@@ -89,7 +89,7 @@ public class FragmentHandbook extends Fragment {
                         switch (childPosition) {
                             case 0: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 0;
 
                                 i.putExtra("index_key", index);
@@ -100,7 +100,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 1: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 1;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -108,7 +108,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 2: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 2;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -116,7 +116,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 3: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 3;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -129,7 +129,7 @@ public class FragmentHandbook extends Fragment {
                         switch (childPosition) {
                             case 0: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 4;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -137,7 +137,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 1: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 5;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -145,7 +145,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 2: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 6;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -153,7 +153,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 3: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 7;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -161,7 +161,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 4: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 8;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -169,7 +169,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 5: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 9;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -181,7 +181,7 @@ public class FragmentHandbook extends Fragment {
                         switch (childPosition) {
                             case 0: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 10;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -189,7 +189,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 1: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 11;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -197,7 +197,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 2: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 12;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -205,7 +205,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 3: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 13;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -213,7 +213,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 4: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 14;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -221,7 +221,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 5: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 15;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -229,7 +229,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 6: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 16;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -237,7 +237,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 7: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 17;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -251,7 +251,7 @@ public class FragmentHandbook extends Fragment {
                         switch (childPosition) {
                             case 0: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 18;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -259,7 +259,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 1: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 19;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -274,7 +274,7 @@ public class FragmentHandbook extends Fragment {
                         switch (childPosition) {
                             case 0: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 20;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -282,7 +282,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 1: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 21;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -291,7 +291,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 2: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 22;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -300,7 +300,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 3: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 23;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -309,7 +309,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 4: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 24;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -318,7 +318,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 5: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 25;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -327,7 +327,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 6: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 26;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -336,7 +336,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 7: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 27;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -345,7 +345,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 8: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 28;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -354,7 +354,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 9: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 29;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -363,7 +363,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 10: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 30;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -372,7 +372,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 11: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 31;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -387,7 +387,7 @@ public class FragmentHandbook extends Fragment {
                         switch (childPosition) {
                             case 0: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 32;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -396,7 +396,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 1: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 33;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -405,7 +405,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 2: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 34;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -414,7 +414,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 3: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 35;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -429,7 +429,7 @@ public class FragmentHandbook extends Fragment {
                         switch (childPosition) {
                             case 0: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 36;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -438,7 +438,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 1: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 37;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -453,7 +453,7 @@ public class FragmentHandbook extends Fragment {
                         switch (childPosition) {
                             case 0: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 38;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -462,7 +462,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 1: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 39;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -471,7 +471,7 @@ public class FragmentHandbook extends Fragment {
                             }
                             case 2: {
                                 Intent i = new Intent(getActivity(),
-                                        PolicyViewing.class);
+                                        ViewingPolicy.class);
                                 int index = 40;
                                 i.putExtra("index_key", index);
                                 startActivity(i);

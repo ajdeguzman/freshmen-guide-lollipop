@@ -24,7 +24,7 @@ public  class StudOrgFragment extends Fragment {
             btnStudOrg.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(View arg0) {
-                    startActivity(new Intent(getActivity(), StudOrgList.class));
+                    startActivity(new Intent(getActivity(), ViewingStudOrgList.class));
                 }
             });
             return rootView;
