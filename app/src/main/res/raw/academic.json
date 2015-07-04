@@ -1,0 +1,14 @@
+{
+    "borrowing": {
+        "id": "For photocopy - 15mins.",
+        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "description": "Present your library borrowers card."
+    },
+    "requirements": {
+        "schoolid": "School ID.",
+        "borrowerscard": "Library borrowers card.",
+        "searching": "Searching of books.",
+        "colorcoding": "Class number of the books by course (Color coding).",
+        "location": "Locate the book from the shelve."
+    }
+}

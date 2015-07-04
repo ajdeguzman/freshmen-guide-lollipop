@@ -1533,6 +1533,8 @@ of and the action asked for.</p>
 
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_fragment_home">FragmentHome</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_viewing_individual_org">Student Organization</string>
 </resources>
 
 

@@ -21,8 +21,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.github.ksoichiro.android.observablescrollview.ObservableListView;
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
@@ -61,6 +63,12 @@ public class SturOrgListAcademicViewPager extends BaseFragment {
                 listView.setScrollViewCallbacks((ObservableScrollViewCallbacks) parentFragment);
             }
         }
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getActivity(), "Haha" + position, Toast.LENGTH_SHORT).show();
+            }
+        });
         return view;
     }
 

@@ -1,22 +1,23 @@
 package edu.ucuccs.ucufreshmenguide;
 
-import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
-public class ViewingHymn extends Activity {
-	//This is a sample comment for Git Tutorial
-	//Another changes example
+public class ViewingHymn extends BaseActivity {
+    Toolbar mToolbar;
 	VideoView video;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.hymn_viewing);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(mToolbar);
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             Window window = this.getWindow();

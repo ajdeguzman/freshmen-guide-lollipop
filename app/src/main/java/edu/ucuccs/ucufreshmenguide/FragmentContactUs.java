@@ -15,8 +15,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
-import com.andexert.library.RippleView;
 import com.cocosw.bottomsheet.BottomSheet;
+import com.melnykov.fab.FloatingActionButton;
+import com.melnykov.fab.ObservableScrollView;
 
 import java.util.List;
 
@@ -24,14 +25,19 @@ public class FragmentContactUs extends Fragment {
     public static final String TAG = "handbook";
 
     private ArrayAdapter<String> adapter;
-    private RippleView btnMenuContacts;
+    private FloatingActionButton btnMenuContacts;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_contactus, container, false);
-        btnMenuContacts = (RippleView)rootView.findViewById(R.id.btnMenuContacts);
+        btnMenuContacts = (FloatingActionButton)rootView.findViewById(R.id.btnMenuContacts);
+
+        ObservableScrollView listView = (ObservableScrollView) rootView.findViewById(R.id.scrollInfoContact);
+        btnMenuContacts = (FloatingActionButton) rootView.findViewById(R.id.btnMenuContacts);
+        btnMenuContacts.attachToScrollView(listView);
+
         btnMenuContacts.bringToFront();
         btnMenuContacts.setOnClickListener(new View.OnClickListener() {
             @Override
