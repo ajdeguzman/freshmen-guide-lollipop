@@ -31,6 +31,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.github.ksoichiro.android.observablescrollview.CacheFragmentStatePagerAdapter;
 import com.github.ksoichiro.android.observablescrollview.ObservableListView;
@@ -326,7 +327,8 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     Intent myIntent = new Intent(getActivity(), ViewingIndividualOrg.class);
                     myIntent.putExtra("org",0);
-                    myIntent.putExtra("position",position);
+                    Toast.makeText(getActivity(), "0", Toast.LENGTH_SHORT).show();
+                    myIntent.putExtra("position", position);
                     startActivity(myIntent);
                 }
             });
@@ -360,6 +362,16 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
                     listView.setScrollViewCallbacks((ObservableScrollViewCallbacks) parentFragment);
                 }
             }
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Intent myIntent = new Intent(getActivity(), ViewingIndividualOrg.class);
+                    myIntent.putExtra("org",1);
+                    Toast.makeText(getActivity(), "1", Toast.LENGTH_SHORT).show();
+                    myIntent.putExtra("position",position);
+                    startActivity(myIntent);
+                }
+            });
             return view;
         }
 
@@ -391,6 +403,16 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
                     listView.setScrollViewCallbacks((ObservableScrollViewCallbacks) parentFragment);
                 }
             }
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Intent myIntent = new Intent(getActivity(), ViewingIndividualOrg.class);
+                    myIntent.putExtra("org",2);
+                    Toast.makeText(getActivity(), "2", Toast.LENGTH_SHORT).show();
+                    myIntent.putExtra("position",position);
+                    startActivity(myIntent);
+                }
+            });
             return view;
         }
 
@@ -418,6 +440,16 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
                     listView.setScrollViewCallbacks((ObservableScrollViewCallbacks) parentFragment);
                 }
             }
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Intent myIntent = new Intent(getActivity(), ViewingIndividualOrg.class);
+                    myIntent.putExtra("org",3);
+                    Toast.makeText(getActivity(), "3", Toast.LENGTH_SHORT).show();
+                    myIntent.putExtra("position",position);
+                    startActivity(myIntent);
+                }
+            });
             return view;
         }
 
@@ -450,6 +482,16 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
                     listView.setScrollViewCallbacks((ObservableScrollViewCallbacks) parentFragment);
                 }
             }
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Intent myIntent = new Intent(getActivity(), ViewingIndividualOrg.class);
+                    myIntent.putExtra("org",4);
+                    Toast.makeText(getActivity(), "4", Toast.LENGTH_SHORT).show();
+                    myIntent.putExtra("position",position);
+                    startActivity(myIntent);
+                }
+            });
             return view;
         }
 

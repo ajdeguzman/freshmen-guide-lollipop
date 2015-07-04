@@ -1,0 +1,20 @@
+{
+    "0": {
+        "id": "every_nation",
+        "name": "Every Nation Campus Ministry",
+        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "description": " To prepare students for LIFE that is training and equipping students in the areas of Leadership, Influence, Faith and Excellence."
+    },
+    "1": {
+        "id": "jcrom",
+        "name": "Junior Circle Responsible Owners of Motorcycle",
+        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "description": "To assist and guide students to be responsible owners of Motorcycles in obeying and observing traffic rules and regulations prescribe by the Land Transportation Office (LTO)."
+    },
+     "2": {
+         "id": "yoga",
+         "name": "Yoga Science Club",
+         "img": "For overnight - starts at 4pm, returning before 9am.",
+         "description": "Promote the Science of Yoga, the yoga lifestyle and instill health, inner peace, satisfaction and well-being of mind, body, and spirit into the lives of all individuals."
+     }
+}

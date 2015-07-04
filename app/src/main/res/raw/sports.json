@@ -1,0 +1,44 @@
+{
+    "0": {
+        "id": "chess",
+        "name": "Chess Club",
+        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "description": "This club will serve to hone young and talented athletes who will be an asset to the University in the field of Chess."
+    },
+    "1": {
+        "id": "table_tennis",
+        "name": "Table Tennis Club",
+        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "description": "To hone talented students to display their unique skills primary in the field of Table Tennis."
+    },
+    "2": {
+        "id": "dart",
+        "name": "Dart Club",
+        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "description": "To stage tournament by initializing and discover bright and promising dart players that imbued sportsmanship"
+    },
+    "3": {
+        "id": "volleyball",
+        "name": "Volleyball Club",
+        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "description": "This club serves as their training ground for the prospective players to become a number of the varsity team."
+    },
+    "4": {
+        "id": "badminton",
+        "name": "Badminton Club",
+        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "description": "Aims to develop students the opportunity to show and hone their talent and skills in the field of Badminton."
+    },
+   "5": {
+        "id": "track_field",
+        "name": "Track and Field Club",
+        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "description": "Aims to develop students on discipline toughness and endurance by promoting the spirit of sportsmanship."
+   },
+   "6": {
+        "id": "basketball",
+        "name": "Basketball Club",
+        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "description": "This club serves as their training ground for the prospective Varsity Players that possess a good character, toughness, unselfishness by conducting basketball clinics within the University campus."
+   }
+}

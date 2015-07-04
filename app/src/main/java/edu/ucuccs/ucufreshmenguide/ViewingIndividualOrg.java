@@ -93,40 +93,48 @@ public class ViewingIndividualOrg extends BaseActivity implements ObservableScro
         Intent myIntent = getIntent();
         int org = myIntent.getIntExtra("org", 0);
         int positionValue= myIntent.getIntExtra("position", 0);
+        //Toast.makeText(getApplicationContext(), org + " " + positionValue, Toast.LENGTH_SHORT).show();
+        InputStream is = null;
+        BufferedReader br;
+
+
+        String line = "";
+        StringBuilder finalstring = new StringBuilder();
+
         switch(org){
             case 0:
-                String line = "";
-                StringBuilder finalstring = new StringBuilder();
-                InputStream is = getResources().openRawResource(R.raw.academic);
-                BufferedReader br = new BufferedReader(new InputStreamReader(is));
-
-                try {
-                    while ((line = br.readLine()) != null) {
-                        finalstring.append(line);
-                    }
-                    JSONObject orgObject = new JSONObject(String.valueOf(finalstring));
-                    for(int i = 0; i < orgObject.length(); i++) {
-                        JSONObject individualOrgObject = orgObject.getJSONObject(String.valueOf(positionValue));
-                        String nameStr = individualOrgObject.getString("name").toString();
-                        String descriptionStr = individualOrgObject.getString("description").toString();
-                        mDescription.setText(descriptionStr);
-                        mName.setText(nameStr);
-                    }
-                } catch (IOException e) {
-                    e.printStackTrace();
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-
+                is = getResources().openRawResource(R.raw.academic);
                 break;
             case 1:
+                is = getResources().openRawResource(R.raw.sports);
                 break;
             case 2:
+                is = getResources().openRawResource(R.raw.cultural);
                 break;
             case 3:
+                is = getResources().openRawResource(R.raw.socio);
                 break;
             case 4:
+                is = getResources().openRawResource(R.raw.spiritual);
                 break;
+        }
+        br  = new BufferedReader(new InputStreamReader(is));
+        try {
+            while ((line = br.readLine()) != null) {
+                finalstring.append(line);
+            }
+            JSONObject orgObject = new JSONObject(String.valueOf(finalstring));
+            for(int i = 0; i < orgObject.length(); i++) {
+                JSONObject individualOrgObject = orgObject.getJSONObject(String.valueOf(positionValue));
+                String nameStr = individualOrgObject.getString("name").toString();
+                String descriptionStr = individualOrgObject.getString("description").toString();
+                mDescription.setText(descriptionStr);
+                mName.setText(nameStr);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
         super.onStart();
     }
