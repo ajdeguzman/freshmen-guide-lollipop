@@ -2,6 +2,7 @@ package edu.ucuccs.ucufreshmenguide;
 
 import android.app.Fragment;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
@@ -29,8 +30,8 @@ public class FragmentHandbook extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_handbook,
-                container, false);
+        View rootView = inflater.inflate(R.layout.fragment_handbook,container, false);
+        getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         expListView = (ExpandableListView) rootView.findViewById(R.id.listView);
 

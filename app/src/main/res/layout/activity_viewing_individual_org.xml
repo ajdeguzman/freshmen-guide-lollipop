@@ -27,23 +27,35 @@
                 android:minHeight="@dimen/parallax_image_height" />
 
             <TextView
-                android:id="@+id/body"
+                android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/anchor"
-                android:textColor="#000"
-                android:background="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/myPrimaryColor"
+                android:text="Student Government Council"
                 android:paddingBottom="@dimen/activity_vertical_margin"
                 android:paddingLeft="@dimen/activity_horizontal_margin"
                 android:paddingRight="@dimen/activity_horizontal_margin"
-                android:paddingTop="@dimen/activity_vertical_margin"
-                android:text="@string/generalPolicies" />
+                android:paddingTop="@dimen/activity_vertical_margin" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_below="@id/name"
+                android:lineSpacingExtra="14.5sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endeavor to promote the general welfare and uphold the fundamental rights of the Student body that promote harmonious students, faculty and administrative relation"
+                android:textColor="#000"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin" />
         </RelativeLayout>
 
     </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
-
     <include layout="@layout/gradient_header" />
-
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"

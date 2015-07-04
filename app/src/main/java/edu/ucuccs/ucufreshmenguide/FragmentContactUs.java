@@ -4,6 +4,7 @@ import android.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
@@ -32,6 +33,7 @@ public class FragmentContactUs extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_contactus, container, false);
+        getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         btnMenuContacts = (FloatingActionButton)rootView.findViewById(R.id.btnMenuContacts);
 
         ObservableScrollView listView = (ObservableScrollView) rootView.findViewById(R.id.scrollInfoContact);

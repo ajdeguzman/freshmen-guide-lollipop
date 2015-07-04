@@ -1,6 +1,7 @@
 package edu.ucuccs.ucufreshmenguide;
 
 import android.app.Fragment;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.widget.Toolbar;
@@ -17,6 +18,7 @@ public class FragmentCoursesOffered extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_courses_offered, container, false);
+        getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         return rootView;
     }
 

@@ -4,17 +4,17 @@
     android:versionCode="3"
     android:versionName="2.0" >
 
-    <permission
+<!--    <permission
         android:name="edu.ucuccs.ucufreshmenguide.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.ajdeguzman.demomapsandroid.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <uses-feature
@@ -34,14 +34,13 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name=".PreferenceActivity"
-            android:label="@string/title_activity_preference" >
-        </activity>
-        <activity
             android:name=".ViewingHymn"
             android:label="@string/title_activity_preference"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".ViewingStudOrgList"
@@ -62,13 +61,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
-        <meta-data
-            android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCVi-rZpx7BldFjo5rxvkYvbGORYhHWH44" />
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
 
         <activity
             android:name=".SplashScreen"
