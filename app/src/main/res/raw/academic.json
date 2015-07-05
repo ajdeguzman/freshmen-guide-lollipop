@@ -1,9 +1,9 @@
 {
     "0": {
         "id": "ssg",
-        "name": "Supreme Student Government",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
-        "description": "Endeavor to promote the general welfare and uphold the fundamental rights of the Student body that promote harmonious students, faculty and administrative relation."
+        "name": "Supreme Student Council",
+        "img": "ssg",
+        "description": "Endeavor to promote the general welfare and uphold the fundamental rights of the Student body that promote harmonious students, faculty and administrative relation. Endeavor to promote the general welfare and uphold the fundamental rights of the Student body that promote harmonious students, faculty and administrative relation. Endeavor to promote the general welfare and uphold the fundamental rights of the Student body that promote harmonious students, faculty and administrative relation."
     },
     "1": {
         "id": "gssg",
@@ -14,55 +14,61 @@
     "2": {
         "id": "scribe",
         "name": "University Scribe",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
-        "description": "To uphold and protect the freedom of the press at the campus and promote the development and growth of campus journalism as a means of strengthening ethical values, encouraging critical and creative thinking and developing moral characters and personal discipline of the Filipino Youth."
+        "img": "scribe",
+        "description": "To uphold and protect the freedom of the press at the campus and promote the development and growth of campus journalism as a means of strengthening ethical values, encouraging critical and creative thinking and developing moral characters and personal discipline of the Filipino Youth. University Scribe is the official student publication of the Urdaneta City University. In its 10 years of existence under its current name and adviser, The University Scribe has striven to be on top of its game and has made a legacy through bagging various awards in the annual Regional Higher Educational Press Conference (RHEPC) and Luzon-wide Higher Education Press Conference (LHEPC)."
     },
     "3": {
         "id": "honors",
         "name": "Honors Society",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "img": "honors",
         "description": "Recognizes the members are the academic scholars of the Urdaneta City University and intensity the student’s desire and capacity to learn towards the achievement of academic excellence through its free tutorial program."
     },
     "4": {
         "id": "jpia",
         "name": "Junior Philippine Institute of Accountants",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "img": "jpia",
         "description": "To create unity among students of Accountancy Department and assist the members who encounter difficulties in accounting subjects, business law, management services and other related subjects."
     },
    "5": {
         "id": "finance",
         "name": "United Management Accounting and Finance League",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "img": "finance",
         "description": "To develop and utilize the talents and potentials of Commerce students to assume a dynamic and responsible attitude towards social development, intellectual and academic excellence and aim for unity and solidarity among members."
    },
    "6": {
         "id": "jits",
         "name": "Junior Information Technology Society",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "img": "jits",
         "description": "Concentrate its help and assistance that will develop skills, attitude and knowledge of the Information Technology students."
    },
     "7": {
         "id": "acts",
         "name": "Association of Computer Technology Society",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "img": "acts",
         "description": "To foster unity, cooperation and camaraderie among computer students through active participation in common undertaking that aims to promote their total development."
     },
     "8": {
         "id": "hrmo",
         "name": "Hotel and Restaurant Management Organization",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "img": "hrmo",
         "description": "To foster unity, cooperation and camaraderie among computer students through active participation in common undertaking that aims to promote their total development."
     },
     "9": {
         "id": "hrso",
         "name": "Hotel and Restaurant Services Organization",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "img": "hrso",
         "description": "To enhance training skills and craftsmanship of students towards their holistic development."
     },
     "10": {
         "id": "assistants",
         "name": "Circle of Student Assistants",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "img": "assistants",
         "description": " The Circle is directed towards the goal of establishing camaraderie among student assistants by assisting various offices in the University and develops among them the values and power of leadership, creativity, responsibility and inspiration."
-    }
+    },
+     "11": {
+         "id": "apothecary",
+         "name": "Apothecary Society",
+         "img": "apothecary",
+         "description": "Representing the opinions of pharmaceutical students in discussions with professional, governmental and non-governmental organisations."
+     }
 }

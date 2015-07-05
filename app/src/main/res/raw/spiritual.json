@@ -1,8 +1,14 @@
 {
     "0": {
         "id": "kkb",
-        "name": "Every Nation Campus Ministry",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "name": "Kristianong Kabataan Para sa Bayan",
+        "img": "kkb",
         "description": "College Ministry partnering with schools to help students excel in their academics, develops leadership skill, be a positive influence in their community, and pursues a god-centered lifestyle."
+    },
+    "1": {
+        "id": "every_nation",
+        "name": "Every Nation Campus (formerly LifeBox)",
+        "img": "every_nation",
+        "description": " To prepare students for LIFE that is training and equipping students in the areas of Leadership, Influence, Faith and Excellence."
     }
 }

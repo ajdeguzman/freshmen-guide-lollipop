@@ -1,6 +1,7 @@
 package edu.ucuccs.ucufreshmenguide;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -8,6 +9,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollView;
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
@@ -49,7 +51,7 @@ public class ViewingIndividualOrg extends BaseActivity implements ObservableScro
             }
         });
 
-        mImageView = findViewById(R.id.image);
+        mImageView = findViewById(R.id.imageCover);
         mDescription = (TextView) findViewById(R.id.description);
         mName = (TextView) findViewById(R.id.name);
         mToolbarView = findViewById(R.id.toolbar);
@@ -93,7 +95,7 @@ public class ViewingIndividualOrg extends BaseActivity implements ObservableScro
         Intent myIntent = getIntent();
         int org = myIntent.getIntExtra("org", 0);
         int positionValue= myIntent.getIntExtra("position", 0);
-        //Toast.makeText(getApplicationContext(), org + " " + positionValue, Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), org + " " + positionValue, Toast.LENGTH_SHORT).show();
         InputStream is = null;
         BufferedReader br;
 
@@ -104,18 +106,23 @@ public class ViewingIndividualOrg extends BaseActivity implements ObservableScro
         switch(org){
             case 0:
                 is = getResources().openRawResource(R.raw.academic);
+                getSupportActionBar().setTitle("Academic Organization");
                 break;
             case 1:
                 is = getResources().openRawResource(R.raw.sports);
+                getSupportActionBar().setTitle("Sports Organization");
                 break;
             case 2:
                 is = getResources().openRawResource(R.raw.cultural);
+                getSupportActionBar().setTitle("Cultural Organization");
                 break;
             case 3:
                 is = getResources().openRawResource(R.raw.socio);
+                getSupportActionBar().setTitle("Socio-Civic Organization");
                 break;
             case 4:
                 is = getResources().openRawResource(R.raw.spiritual);
+                getSupportActionBar().setTitle("Spiritual Organization");
                 break;
         }
         br  = new BufferedReader(new InputStreamReader(is));
@@ -126,8 +133,14 @@ public class ViewingIndividualOrg extends BaseActivity implements ObservableScro
             JSONObject orgObject = new JSONObject(String.valueOf(finalstring));
             for(int i = 0; i < orgObject.length(); i++) {
                 JSONObject individualOrgObject = orgObject.getJSONObject(String.valueOf(positionValue));
+
+                String imgStr = individualOrgObject.getString("img").toString();
                 String nameStr = individualOrgObject.getString("name").toString();
                 String descriptionStr = individualOrgObject.getString("description").toString();
+
+                int imgPath = getResources().getIdentifier(imgStr, "drawable", getPackageName());
+                Drawable image = getResources().getDrawable(imgPath == 0 ? R.mipmap.ucu_header : imgPath);
+                mImageView.setBackground(image);
                 mDescription.setText(descriptionStr);
                 mName.setText(nameStr);
             }

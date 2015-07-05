@@ -31,7 +31,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.github.ksoichiro.android.observablescrollview.CacheFragmentStatePagerAdapter;
 import com.github.ksoichiro.android.observablescrollview.ObservableListView;
@@ -294,7 +293,7 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
     public static class SturOrgListAcademicViewPager extends BaseFragment {
 
         private static final String[] ACADEMICS_LIST = new String[]{
-                "Supreme Student Government",
+                "Supreme Student Council",
                 "Graduate School Student Government",
                 "University Scribe",
                 "Honors Society",
@@ -304,7 +303,8 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
                 "Association Of Computer Technology Students",
                 "Hotel And Restaurant Management Organization",
                 "Hotel And Restaurant Services Organization",
-                "Circle Of Student Assistants"
+                "Circle Of Student Assistants",
+                "Apothecary Society"
         };
 
         @Override
@@ -327,8 +327,7 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     Intent myIntent = new Intent(getActivity(), ViewingIndividualOrg.class);
                     myIntent.putExtra("org",0);
-                    Toast.makeText(getActivity(), "0", Toast.LENGTH_SHORT).show();
-                    myIntent.putExtra("position", position);
+                    myIntent.putExtra("position",position);
                     startActivity(myIntent);
                 }
             });
@@ -337,124 +336,6 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
 
         protected void setData(ListView listView) {
             listView.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, ACADEMICS_LIST));
-        }
-    }
-
-    public static class SturOrgListCulturalViewPager extends BaseFragment {
-
-        private static final String[] CULTURAL_LIST = new String[]{
-                "Music Ensemble",
-                "Baguntao Theater Guild"
-        };
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            View view = inflater.inflate(R.layout.fragment_listview, container, false);
-
-            final ObservableListView listView = (ObservableListView) view.findViewById(R.id.scroll);
-            setData(listView);
-
-            Fragment parentFragment = getParentFragment();
-            ViewGroup viewGroup = (ViewGroup) parentFragment.getView();
-            if (viewGroup != null) {
-                listView.setTouchInterceptionViewGroup((ViewGroup) viewGroup.findViewById(R.id.container));
-                if (parentFragment instanceof ObservableScrollViewCallbacks) {
-                    listView.setScrollViewCallbacks((ObservableScrollViewCallbacks) parentFragment);
-                }
-            }
-            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent myIntent = new Intent(getActivity(), ViewingIndividualOrg.class);
-                    myIntent.putExtra("org",1);
-                    Toast.makeText(getActivity(), "1", Toast.LENGTH_SHORT).show();
-                    myIntent.putExtra("position",position);
-                    startActivity(myIntent);
-                }
-            });
-            return view;
-        }
-
-        protected void setData(ListView listView) {
-            listView.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, CULTURAL_LIST));
-        }
-    }
-
-    public static class SturOrgListSocioCivicViewPager extends BaseFragment {
-
-        private static final String[] SOCIO_CIVIC_LIST = new String[]{
-                "Every Nation Campus Ministry",
-                "Junior Circle Responsible Owners Of Motorcycle",
-                "Yoga Science Club"
-        };
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            View view = inflater.inflate(R.layout.fragment_listview, container, false);
-
-            final ObservableListView listView = (ObservableListView) view.findViewById(R.id.scroll);
-            setData(listView);
-
-            Fragment parentFragment = getParentFragment();
-            ViewGroup viewGroup = (ViewGroup) parentFragment.getView();
-            if (viewGroup != null) {
-                listView.setTouchInterceptionViewGroup((ViewGroup) viewGroup.findViewById(R.id.container));
-                if (parentFragment instanceof ObservableScrollViewCallbacks) {
-                    listView.setScrollViewCallbacks((ObservableScrollViewCallbacks) parentFragment);
-                }
-            }
-            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent myIntent = new Intent(getActivity(), ViewingIndividualOrg.class);
-                    myIntent.putExtra("org",2);
-                    Toast.makeText(getActivity(), "2", Toast.LENGTH_SHORT).show();
-                    myIntent.putExtra("position",position);
-                    startActivity(myIntent);
-                }
-            });
-            return view;
-        }
-
-        protected void setData(ListView listView) {
-            listView.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, SOCIO_CIVIC_LIST));
-        }
-    }
-    public static class SturOrgListSpiritualViewPager extends BaseFragment {
-
-        private static final String[] SPIRITUAL_LIST = new String[]{
-                "Kristianong Kabataan Para Sa Bayan"
-        };
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-            View view = inflater.inflate(R.layout.fragment_listview, container, false);
-
-            final ObservableListView listView = (ObservableListView) view.findViewById(R.id.scroll);
-            setData(listView);
-
-            Fragment parentFragment = getParentFragment();
-            ViewGroup viewGroup = (ViewGroup) parentFragment.getView();
-            if (viewGroup != null) {
-                listView.setTouchInterceptionViewGroup((ViewGroup) viewGroup.findViewById(R.id.container));
-                if (parentFragment instanceof ObservableScrollViewCallbacks) {
-                    listView.setScrollViewCallbacks((ObservableScrollViewCallbacks) parentFragment);
-                }
-            }
-            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-                @Override
-                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent myIntent = new Intent(getActivity(), ViewingIndividualOrg.class);
-                    myIntent.putExtra("org",3);
-                    Toast.makeText(getActivity(), "3", Toast.LENGTH_SHORT).show();
-                    myIntent.putExtra("position",position);
-                    startActivity(myIntent);
-                }
-            });
-            return view;
-        }
-
-        protected void setData(ListView listView) {
-            listView.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, SPIRITUAL_LIST));
         }
     }
     public static class SturOrgListSportsViewPager extends BaseFragment {
@@ -485,11 +366,10 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
             listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    Intent myIntent = new Intent(getActivity(), ViewingIndividualOrg.class);
-                    myIntent.putExtra("org",4);
-                    Toast.makeText(getActivity(), "4", Toast.LENGTH_SHORT).show();
-                    myIntent.putExtra("position",position);
-                    startActivity(myIntent);
+                    Intent myIntent5 = new Intent(getActivity(), ViewingIndividualOrg.class);
+                    myIntent5.putExtra("org",1);
+                    myIntent5.putExtra("position",position);
+                    startActivity(myIntent5);
                 }
             });
             return view;
@@ -497,6 +377,121 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
 
         protected void setData(ListView listView) {
             listView.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, SPORTS_LIST));
+        }
+    }
+
+    public static class SturOrgListCulturalViewPager extends BaseFragment {
+
+        private static final String[] CULTURAL_LIST = new String[]{
+                "Music Ensemble",
+                "Baguntao Theater Guild"
+        };
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            View view = inflater.inflate(R.layout.fragment_listview, container, false);
+
+            final ObservableListView listView = (ObservableListView) view.findViewById(R.id.scroll);
+            setData(listView);
+
+            Fragment parentFragment = getParentFragment();
+            ViewGroup viewGroup = (ViewGroup) parentFragment.getView();
+            if (viewGroup != null) {
+                listView.setTouchInterceptionViewGroup((ViewGroup) viewGroup.findViewById(R.id.container));
+                if (parentFragment instanceof ObservableScrollViewCallbacks) {
+                    listView.setScrollViewCallbacks((ObservableScrollViewCallbacks) parentFragment);
+                }
+            }
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Intent myIntent2 = new Intent(getActivity(), ViewingIndividualOrg.class);
+                    myIntent2.putExtra("org",2);
+                    myIntent2.putExtra("position",position);
+                    startActivity(myIntent2);
+                }
+            });
+            return view;
+        }
+
+        protected void setData(ListView listView) {
+            listView.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, CULTURAL_LIST));
+        }
+    }
+
+    public static class SturOrgListSocioCivicViewPager extends BaseFragment {
+
+        private static final String[] SOCIO_CIVIC_LIST = new String[]{
+                "Junior Circle Responsible Owners Of Motorcycle",
+                "Yoga Science Club"
+        };
+
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            View view = inflater.inflate(R.layout.fragment_listview, container, false);
+
+            final ObservableListView listView = (ObservableListView) view.findViewById(R.id.scroll);
+            setData(listView);
+
+            Fragment parentFragment = getParentFragment();
+            ViewGroup viewGroup = (ViewGroup) parentFragment.getView();
+            if (viewGroup != null) {
+                listView.setTouchInterceptionViewGroup((ViewGroup) viewGroup.findViewById(R.id.container));
+                if (parentFragment instanceof ObservableScrollViewCallbacks) {
+                    listView.setScrollViewCallbacks((ObservableScrollViewCallbacks) parentFragment);
+                }
+            }
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Intent myIntent3 = new Intent(getActivity(), ViewingIndividualOrg.class);
+                    myIntent3.putExtra("org",3);
+                    myIntent3.putExtra("position",position);
+                    startActivity(myIntent3);
+                }
+            });
+            return view;
+        }
+
+        protected void setData(ListView listView) {
+            listView.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, SOCIO_CIVIC_LIST));
+        }
+    }
+    public static class SturOrgListSpiritualViewPager extends BaseFragment {
+
+        private static final String[] SPIRITUAL_LIST = new String[]{
+                "Kristianong Kabataan Para Sa Bayan",
+                "Every Nation Campus"
+        };
+        @Override
+        public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+            View view = inflater.inflate(R.layout.fragment_listview, container, false);
+
+            final ObservableListView listView = (ObservableListView) view.findViewById(R.id.scroll);
+            setData(listView);
+
+            Fragment parentFragment = getParentFragment();
+            ViewGroup viewGroup = (ViewGroup) parentFragment.getView();
+            if (viewGroup != null) {
+                listView.setTouchInterceptionViewGroup((ViewGroup) viewGroup.findViewById(R.id.container));
+                if (parentFragment instanceof ObservableScrollViewCallbacks) {
+                    listView.setScrollViewCallbacks((ObservableScrollViewCallbacks) parentFragment);
+                }
+            }
+            listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    Intent myIntent4 = new Intent(getActivity(), ViewingIndividualOrg.class);
+                    myIntent4.putExtra("org",4);
+                    myIntent4.putExtra("position",position);
+                    startActivity(myIntent4);
+                }
+            });
+            return view;
+        }
+
+        protected void setData(ListView listView) {
+            listView.setAdapter(new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, SPIRITUAL_LIST));
         }
     }
 }

@@ -2,13 +2,13 @@
     "0": {
         "id": "music_ensemble",
         "name": "Music Ensemble",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "img": "music_ensemble",
         "description": " To provide a venue for training and enhancement of talents and skills through music and performance, where students are nurtured to be graceful, confident, and true advocates of Filipino culture and the world as well."
     },
     "1": {
         "id": "baguntao",
         "name": "Baguntao Theater Guild",
-        "img": "For overnight - starts at 4pm, returning before 9am.",
+        "img": "baguntao",
         "description": "  To promote the development of the physical, emotional, cultural, spiritual, social and intellectual well-being of the students through Aesthetic and Cultural Program, Values Orientation Program, Outreach Program and Leadership Capability Program."
     }
 }
