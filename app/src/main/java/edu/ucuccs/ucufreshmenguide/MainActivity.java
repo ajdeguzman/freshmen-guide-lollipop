@@ -22,9 +22,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerC
         setContentView(R.layout.activity_main);
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
-
-        mNavigationDrawerFragment = (NavigationDrawerFragment)
-                getFragmentManager().findFragmentById(R.id.fragment_drawer);
+        mNavigationDrawerFragment = (NavigationDrawerFragment) getFragmentManager().findFragmentById(R.id.fragment_drawer);
 
         mNavigationDrawerFragment.setup(R.id.fragment_drawer, (DrawerLayout) findViewById(R.id.drawer), mToolbar);
         mNavigationDrawerFragment.setUserData("UCU Freshmen Guide", BitmapFactory.decodeResource(getResources(), R.mipmap.ucu_logo));
@@ -37,7 +35,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerC
         Fragment fhandbook= new FragmentHandbook();
         Fragment fcontactUs = new FragmentContactUs();
         Fragment fstudOrg = new FragmentStudentOrg();
-        Fragment fCourses = new FragmentCoursesOffered();
+        Fragment fCourses = new FragmentAcademics();
         Fragment fHome = new FragmentHome();
         FragmentTransaction t = getFragmentManager().beginTransaction();
         switch (position) {
@@ -85,19 +83,5 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerC
         else
             super.onBackPressed();
     }
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        if (!mNavigationDrawerFragment.isDrawerOpen()) {
-            getMenuInflater().inflate(R.menu.main, menu);
-            return true;
-        }
-        return super.onCreateOptionsMenu(menu);
-    }
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        return super.onOptionsItemSelected(item);
-    }
-
 
 }

@@ -1,5 +1,6 @@
 package edu.ucuccs.ucufreshmenguide;
 
+import android.annotation.TargetApi;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
@@ -26,7 +27,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 
-public class ViewingIndividualOrg extends BaseActivity implements ObservableScrollViewCallbacks {
+public class ViewingIndividualCollege extends BaseActivity implements ObservableScrollViewCallbacks {
 
     private View mImageView;
     private View mToolbarView;
@@ -38,7 +39,7 @@ public class ViewingIndividualOrg extends BaseActivity implements ObservableScro
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_viewing_individual_org);
+        setContentView(R.layout.activity_viewing_individual_college);
 
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
@@ -90,11 +91,12 @@ public class ViewingIndividualOrg extends BaseActivity implements ObservableScro
     @Override
     public void onUpOrCancelMotionEvent(ScrollState scrollState) {
     }
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     @Override
     public void onStart(){
         Intent myIntent = getIntent();
-        int org = myIntent.getIntExtra("org", 0);
-        int positionValue= myIntent.getIntExtra("position", 0);
+        int groupPosition = myIntent.getIntExtra("groupPosition", 0);
+        int childPosition= myIntent.getIntExtra("childPosition", 0);
         InputStream is = null;
         BufferedReader br;
 
@@ -102,29 +104,21 @@ public class ViewingIndividualOrg extends BaseActivity implements ObservableScro
         String line = "";
         StringBuilder finalstring = new StringBuilder();
 
-        switch(org){
+        switch(groupPosition){
             case 0:
-                is = getResources().openRawResource(R.raw.academic);
-                getSupportActionBar().setTitle("Academic Organization");
+                //is = getResources().openRawResource(R.raw.academic);
+                getSupportActionBar().setTitle("Colleges");
                 break;
             case 1:
-                is = getResources().openRawResource(R.raw.sports);
-                getSupportActionBar().setTitle("Sports Organization");
+                //is = getResources().openRawResource(R.raw.sports);
+                getSupportActionBar().setTitle("Graduate Studies");
                 break;
             case 2:
-                is = getResources().openRawResource(R.raw.cultural);
-                getSupportActionBar().setTitle("Cultural Organization");
-                break;
-            case 3:
-                is = getResources().openRawResource(R.raw.socio);
-                getSupportActionBar().setTitle("Socio-Civic Organization");
-                break;
-            case 4:
-                is = getResources().openRawResource(R.raw.spiritual);
-                getSupportActionBar().setTitle("Spiritual Organization");
+                //is = getResources().openRawResource(R.raw.cultural);
+                getSupportActionBar().setTitle("Continuing Professional Development");
                 break;
         }
-        br  = new BufferedReader(new InputStreamReader(is));
+       /* br  = new BufferedReader(new InputStreamReader(is));
         try {
             while ((line = br.readLine()) != null) {
                 finalstring.append(line);
@@ -147,7 +141,7 @@ public class ViewingIndividualOrg extends BaseActivity implements ObservableScro
             e.printStackTrace();
         } catch (JSONException e) {
             e.printStackTrace();
-        }
+        }*/
         super.onStart();
     }
 }

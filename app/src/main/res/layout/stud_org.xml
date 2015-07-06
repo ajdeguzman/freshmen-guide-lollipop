@@ -16,13 +16,14 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="15dp"
             android:layout_gravity="center"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="Student Organization"
             android:id="@+id/textView"
             android:capitalize="words"
             android:clickable="false"
+            android:textColor="#FFF"
             android:gravity="fill" />
     </LinearLayout>
 
@@ -34,7 +35,7 @@
         <TextView
             android:textColor="#000"
             android:layout_width="wrap_content"
-            android:layout_margin="10dp"
+            android:layout_margin="15dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:text="@string/string_title_studorg"

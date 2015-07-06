@@ -6,7 +6,7 @@
     <string name="home">Home</string>
     <string name="book">Student Handbook</string>
     <string name="map">Campus Map</string>
-    <string name="courses">Courses Offered</string>
+    <string name="academics">Academics</string>
     <string name="org">Organizational Charts</string>
     <string name="student">Student Organizations</string>
     <string name="hymn">Hymn</string>
@@ -1534,7 +1534,8 @@ of and the action asked for.</p>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_fragment_home">FragmentHome</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
-    <string name="title_activity_viewing_individual_org">Student Organization</string>
+	<string name="title_activity_viewing_individual_org">Student Organization</string>
+	<string name="title_activity_viewing_individual_college">Student Organization</string>
 </resources>
 
 

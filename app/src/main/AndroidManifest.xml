@@ -63,7 +63,7 @@
         </activity>
 
         <activity
-            android:name=".SplashScreen"
+            android:name=".ActivitySplashScreen"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
@@ -78,6 +78,16 @@
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait"
             android:label="@string/title_activity_viewing_individual_org" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ViewingIndividualCollege"
+            android:configChanges="orientation|keyboardHidden"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_viewing_individual_college" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

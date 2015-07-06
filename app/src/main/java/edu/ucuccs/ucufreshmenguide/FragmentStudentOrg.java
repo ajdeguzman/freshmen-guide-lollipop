@@ -22,7 +22,6 @@ public  class FragmentStudentOrg extends Fragment {
         View rootView = inflater.inflate(R.layout.stud_org, container, false);
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         btnStudOrg = (Button)rootView.findViewById(R.id.btnStudOrg);
-
             btnStudOrg.setOnClickListener(new OnClickListener() {
                 @Override
                 public void onClick(View arg0) {
