@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollView;
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollViewCallbacks;
@@ -101,31 +100,20 @@ public class ViewingIndividualCollege extends BaseActivity implements Observable
         BufferedReader br;
 
 
-        String line = "";
-        StringBuilder finalstring = new StringBuilder();
+            String line = "";
+            StringBuilder finalstring = new StringBuilder();
 
-        switch(groupPosition){
-            case 0:
-                //is = getResources().openRawResource(R.raw.academic);
-                getSupportActionBar().setTitle("Colleges");
-                break;
-            case 1:
-                //is = getResources().openRawResource(R.raw.sports);
-                getSupportActionBar().setTitle("Graduate Studies");
-                break;
-            case 2:
-                //is = getResources().openRawResource(R.raw.cultural);
-                getSupportActionBar().setTitle("Continuing Professional Development");
-                break;
-        }
-       /* br  = new BufferedReader(new InputStreamReader(is));
-        try {
+            is = getResources().openRawResource(R.raw.colleges);
+            getSupportActionBar().setTitle("Colleges");
+
+            br  = new BufferedReader(new InputStreamReader(is));
+            try {
             while ((line = br.readLine()) != null) {
                 finalstring.append(line);
             }
             JSONObject orgObject = new JSONObject(String.valueOf(finalstring));
             for(int i = 0; i < orgObject.length(); i++) {
-                JSONObject individualOrgObject = orgObject.getJSONObject(String.valueOf(positionValue));
+                JSONObject individualOrgObject = orgObject.getJSONObject(String.valueOf(childPosition));
 
                 String imgStr = individualOrgObject.getString("img").toString();
                 String nameStr = individualOrgObject.getString("name").toString();
@@ -141,7 +129,7 @@ public class ViewingIndividualCollege extends BaseActivity implements Observable
             e.printStackTrace();
         } catch (JSONException e) {
             e.printStackTrace();
-        }*/
+        }
         super.onStart();
     }
 }

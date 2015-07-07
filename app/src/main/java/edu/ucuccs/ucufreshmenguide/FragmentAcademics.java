@@ -100,7 +100,7 @@ public class FragmentAcademics extends Fragment {
         colleges.add("Nursing");
         colleges.add("Pharmacy");
         colleges.add("Engineering and Architecture");
-        colleges.add("Science and math");
+        colleges.add("Science and Mathematics");
         colleges.add("Social Work");
         colleges.add("Law");
 

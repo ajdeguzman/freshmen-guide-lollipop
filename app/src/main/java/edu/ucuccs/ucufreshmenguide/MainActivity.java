@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuItem;
 
 
 public class MainActivity extends ActionBarActivity implements NavigationDrawerCallbacks {
@@ -37,6 +35,7 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerC
         Fragment fstudOrg = new FragmentStudentOrg();
         Fragment fCourses = new FragmentAcademics();
         Fragment fHome = new FragmentHome();
+        FragmentOrgChart fOrgChart = new FragmentOrgChart();
         FragmentTransaction t = getFragmentManager().beginTransaction();
         switch (position) {
             case 0:
@@ -49,27 +48,32 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerC
                 t.addToBackStack(null);
                 t.commit();
                 break;
-            case 2: //my account //todo
+            case 2:
                 t.replace(R.id.container, fMap);
                 t.addToBackStack(null);
                 t.commit();
                 break;
-            case 3: //my account //todo
+            case 3:
                 t.replace(R.id.container, fCourses);
                 t.addToBackStack(null);
                 t.commit();
                 break;
-            case 5: //stud_org
+            case 4:
+                t.replace(R.id.container, fOrgChart);
+                t.addToBackStack(null);
+                t.commit();
+                break;
+            case 5:
                 t.replace(R.id.container, fstudOrg);
                 t.addToBackStack(null);
                 t.commit();
                 break;
-            case 6: //ucuhymn
+            case 6:
                 t.replace(R.id.container, fHymn);
                 t.addToBackStack(null);
                 t.commit();
                 break;
-            case 7: //stats
+            case 7:
                 t.replace(R.id.container, fcontactUs);
                 t.addToBackStack(null);
                 t.commit();

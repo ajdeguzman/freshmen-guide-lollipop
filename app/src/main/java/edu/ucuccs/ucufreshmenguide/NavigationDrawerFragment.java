@@ -233,7 +233,7 @@ public class NavigationDrawerFragment extends Fragment implements NavigationDraw
     public void setUserData(String user, Bitmap avatar) {
         ImageView avatarContainer = (ImageView) mFragmentContainerView.findViewById(R.id.imgAvatar);
         ((TextView) mFragmentContainerView.findViewById(R.id.txtUsername)).setText(user);
-        avatarContainer.setImageDrawable(new RoundImage(avatar));
+        avatarContainer.setImageBitmap(avatar);
     }
 
     public View getGoogleDrawer() {

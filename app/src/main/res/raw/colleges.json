@@ -1,80 +1,86 @@
 {
     "0": {
-        "id": "ssg",
-        "name": "Supreme Student Council",
-        "img": "ssg",
+        "id": "header_caba",
+        "name": "College of Accountancy and Business Administration",
+        "img": "header_caba",
         "description": "Endeavor to promote the general welfare and uphold the fundamental rights of the Student body that promote harmonious students, faculty and administrative relation. Endeavor to promote the general welfare and uphold the fundamental rights of the Student body that promote harmonious students, faculty and administrative relation. Endeavor to promote the general welfare and uphold the fundamental rights of the Student body that promote harmonious students, faculty and administrative relation."
     },
     "1": {
-        "id": "gssg",
-        "name": "Graduate School Student Government",
-        "img": "gssg",
+        "id": "header_arts",
+        "name": "College of Arts and Languages",
+        "img": "header_arts",
         "description": "It fosters the professional growth and development of graduate students of the University through the promotions of the intellectual, social, spiritual, cultural and physical well-being."
     },
     "2": {
-        "id": "scribe",
-        "name": "University Scribe",
-        "img": "scribe",
+        "id": "header_caregiver",
+        "name": "Caregiver Department",
+        "img": "header_caregiver",
         "description": "To uphold and protect the freedom of the press at the campus and promote the development and growth of campus journalism as a means of strengthening ethical values, encouraging critical and creative thinking and developing moral characters and personal discipline of the Filipino Youth. University Scribe is the official student publication of the Urdaneta City University. In its 10 years of existence under its current name and adviser, The University Scribe has striven to be on top of its game and has made a legacy through bagging various awards in the annual Regional Higher Educational Press Conference (RHEPC) and Luzon-wide Higher Education Press Conference (LHEPC)."
     },
     "3": {
-        "id": "honors",
-        "name": "Honors Society",
-        "img": "honors",
+        "id": "header_ccs",
+        "name": "College of Computer Studies",
+        "img": "header_ccs",
         "description": "Recognizes the members are the academic scholars of the Urdaneta City University and intensity the student’s desire and capacity to learn towards the achievement of academic excellence through its free tutorial program."
     },
     "4": {
-        "id": "jpia",
-        "name": "Junior Philippine Institute of Accountants",
-        "img": "jpia",
+        "id": "header_crim",
+        "name": "College of Criminology",
+        "img": "header_crim",
         "description": "To create unity among students of Accountancy Department and assist the members who encounter difficulties in accounting subjects, business law, management services and other related subjects."
     },
    "5": {
-        "id": "finance",
-        "name": "United Management Accounting and Finance League",
-        "img": "finance",
+        "id": "header_education",
+        "name": "College of Education",
+        "img": "header_education",
         "description": "To develop and utilize the talents and potentials of Commerce students to assume a dynamic and responsible attitude towards social development, intellectual and academic excellence and aim for unity and solidarity among members."
    },
    "6": {
-        "id": "jits",
-        "name": "Junior Information Technology Society",
-        "img": "jits",
+        "id": "header_tourism",
+        "name": "College of Hotel and Restaurant Services",
+        "img": "header_tourism",
         "description": "Concentrate its help and assistance that will develop skills, attitude and knowledge of the Information Technology students."
    },
     "7": {
-        "id": "acts",
-        "name": "Association of Computer Technology Society",
-        "img": "acts",
+        "id": "header_midwifery",
+        "name": "School of Midwifery",
+        "img": "header_midwifery",
         "description": "To foster unity, cooperation and camaraderie among computer students through active participation in common undertaking that aims to promote their total development."
     },
     "8": {
-        "id": "hrmo",
-        "name": "Hotel and Restaurant Management Organization",
-        "img": "hrmo",
+        "id": "header_nursing",
+        "name": "College of Nursing",
+        "img": "header_nursing",
         "description": "To foster unity, cooperation and camaraderie among computer students through active participation in common undertaking that aims to promote their total development."
     },
     "9": {
-        "id": "hrso",
-        "name": "Hotel and Restaurant Services Organization",
-        "img": "hrso",
+        "id": "header_pharma",
+        "name": "College of Pharmacy",
+        "img": "header_pharma",
         "description": "To enhance training skills and craftsmanship of students towards their holistic development."
     },
     "10": {
-        "id": "assistants",
-        "name": "Circle of Student Assistants",
-        "img": "assistants",
+        "id": "header_engineering",
+        "name": "College of Engineering and Architecture",
+        "img": "header_engineering",
         "description": " The Circle is directed towards the goal of establishing camaraderie among student assistants by assisting various offices in the University and develops among them the values and power of leadership, creativity, responsibility and inspiration."
     },
      "11": {
-         "id": "apothecary",
-         "name": "Apothecary Society",
-         "img": "apothecary",
+         "id": "header_math",
+         "name": "College of Science and Mathematics",
+         "img": "header_math",
          "description": "Representing the opinions of pharmaceutical students in discussions with professional, governmental and non-governmental organisations."
      },
-   "12": {
-       "id": "tourism_movers",
-       "name": "Tourism Movers Society",
-       "img": "tourism_movers",
-       "description": "To enhance training skills and craftsmanship of students towards their holistic development."
-   }
+      "12": {
+          "id": "header_social",
+          "name": "College of Social Works",
+          "img": "header_social",
+          "description": " The Circle is directed towards the goal of establishing camaraderie among student assistants by assisting various offices in the University and develops among them the values and power of leadership, creativity, responsibility and inspiration."
+      },
+       "13": {
+           "id": "header_crim",
+           "name": "College of Law",
+           "img": "header_crim",
+           "description": "Representing the opinions of pharmaceutical students in discussions with professional, governmental and non-governmental organisations."
+       }
 }

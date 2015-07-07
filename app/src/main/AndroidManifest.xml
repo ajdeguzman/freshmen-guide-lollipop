@@ -4,14 +4,16 @@
     android:versionCode="3"
     android:versionName="2.0" >
 
-<!--    <permission
+    <!--
+        <permission
         android:name="edu.ucuccs.ucufreshmenguide.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.ajdeguzman.demomapsandroid.permission.MAPS_RECEIVE" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -44,8 +46,8 @@
         </activity>
         <activity
             android:name=".ViewingStudOrgList"
-            android:label="@string/student"
             android:configChanges="orientation|keyboardHidden"
+            android:label="@string/student"
             android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" >
             <meta-data
@@ -61,7 +63,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
         <activity
             android:name=".ActivitySplashScreen"
             android:configChanges="orientation|keyboardHidden"
@@ -69,15 +70,16 @@
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".ViewingIndividualOrg"
             android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_viewing_individual_org"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_viewing_individual_org" >
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
@@ -85,12 +87,21 @@
         <activity
             android:name=".ViewingIndividualCollege"
             android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_viewing_individual_college"
             android:parentActivityName=".MainActivity"
-            android:screenOrientation="portrait"
-            android:label="@string/title_activity_viewing_individual_college" >
+            android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".ChartViewing"
+            android:label="@string/title_activity_fragment_org_chart" >
+        </activity>
+        <activity
+            android:name=".ChartViewLandscape"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_fragment_org_chart" >
         </activity>
     </application>
 

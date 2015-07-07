@@ -10,7 +10,7 @@ import android.view.WindowManager;
 
 public class ActivitySplashScreen extends ActionBarActivity {
 
-    private static int SPLASH_TIME_OUT = 100;
+    private static int SPLASH_TIME_OUT = 3000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         requestWindowFeature(Window.FEATURE_NO_TITLE);

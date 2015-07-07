@@ -65,5 +65,5 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"
-        app:theme="@style/Toolbar" />
+        android:theme="@style/Toolbar" />
 </FrameLayout>

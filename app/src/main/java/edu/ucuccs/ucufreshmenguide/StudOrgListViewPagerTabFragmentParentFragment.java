@@ -304,7 +304,8 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
                 "Hotel And Restaurant Management Organization",
                 "Hotel And Restaurant Services Organization",
                 "Circle Of Student Assistants",
-                "Apothecary Society"
+                "Apothecary Society",
+                "Tourism Movers Society"
         };
 
         @Override
