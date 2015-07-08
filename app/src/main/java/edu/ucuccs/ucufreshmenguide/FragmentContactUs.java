@@ -65,7 +65,7 @@ public class FragmentContactUs extends Fragment {
                                         String encodedQuery = Uri.encode(query);
                                         String uriString = uriBegin + "?q=" + encodedQuery + "&z=16";
                                         Uri uri = Uri.parse(uriString);
-                                        Intent intent = new Intent(android.content.Intent.ACTION_VIEW, uri);
+                                        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                                         startActivity(intent);
                                         break;
                                     case R.id.contact_email:

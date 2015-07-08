@@ -248,7 +248,7 @@ public class FeedImageView extends ImageView {
      * Adjusting imageview height
      * */
 	private void adjustImageAspect(int bWidth, int bHeight) {
-		LinearLayout.LayoutParams params = (LayoutParams) getLayoutParams();
+		LayoutParams params = (LayoutParams) getLayoutParams();
 
 		if (bWidth == 0 || bHeight == 0)
 			return;

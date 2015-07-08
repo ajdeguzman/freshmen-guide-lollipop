@@ -3,6 +3,7 @@ package edu.ucuccs.ucufreshmenguide;
 import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +11,6 @@ import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
 import android.widget.ExpandableListView.OnGroupCollapseListener;
-import android.widget.ExpandableListView.OnGroupExpandListener;
 import android.widget.SearchView;
 
 import java.util.ArrayList;
@@ -27,47 +27,34 @@ public class FragmentOrgChart extends Fragment {
     SearchView searchView;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.activity_fragment_org_chart,
-                container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        // get the listview
+        View rootView = inflater.inflate(R.layout.activity_fragment_org_chart, container, false);
         expListView = (ExpandableListView) rootView.findViewById(R.id.lvExp);
-
-        // preparing list data
         prepareListData();
+        listAdapter = new ExpandableListAdapter(getActivity(), listDataHeader, listDataChild);
 
-        listAdapter = new ExpandableListAdapter(getActivity(), listDataHeader,
-                listDataChild);
-
-        // setting list adapter
         expListView.setAdapter(listAdapter);
-
-        // Listview Group click listener
         expListView.setOnGroupClickListener(new OnGroupClickListener() {
-
             @Override
-            public boolean onGroupClick(ExpandableListView arg0, View arg1,
-                                        int arg2, long arg3) {
-                // TODO Auto-generated method stub
+            public boolean onGroupClick(ExpandableListView arg0, View arg1, int arg2, long arg3) {
                 return false;
             }
 
         });
-
-        // Listview Group expanded listener
-        expListView.setOnGroupExpandListener(new OnGroupExpandListener() {
+        expListView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
+            int previousGroup = -1;
 
             @Override
             public void onGroupExpand(int groupPosition) {
-
+                if (groupPosition != previousGroup)
+                    expListView.collapseGroup(previousGroup);
+                previousGroup = groupPosition;
+                Log.d("HAHA", groupPosition + "");
             }
         });
 
-        // Listview Group collasped listener
         expListView.setOnGroupCollapseListener(new OnGroupCollapseListener() {
-
             @Override
             public void onGroupCollapse(int groupPosition) {
 
@@ -76,12 +63,8 @@ public class FragmentOrgChart extends Fragment {
 
         // Listview on child click listener
         expListView.setOnChildClickListener(new OnChildClickListener() {
-
             @Override
-            public boolean onChildClick(ExpandableListView parent, View v,
-                                        int groupPosition, int childPosition, long id) {
-                // TODO Auto-generated method stub
-
+            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
                 listDataHeader.get(groupPosition);
                 listDataChild.get(childPosition);
 
@@ -298,20 +281,15 @@ public class FragmentOrgChart extends Fragment {
                             }
                         }
                         break;
-
                 }
-
                 return false;
             }
-
         });
-
         expListView.expandGroup(0);
         return rootView;
     }
 
     private void prepareListData() {
-        // TODO Auto-generated method stub
         listDataHeader = new ArrayList<String>();
         listDataChild = new HashMap<String, List<String>>();
 
@@ -334,8 +312,8 @@ public class FragmentOrgChart extends Fragment {
         s1.add("PEHM Department/Sports Development and Cultural Affairs");
 
         List<String> s2 = new ArrayList<String>();
-        s2.add("College of Computer Studies");
-        s2.add("Department of Library and Information Science");
+        s2.add("Computer Studies");
+        s2.add("Library and Information Science Department");
         s2.add("College of Accountancy and Business Administration");
         s2.add("College of Arts and Languages");
         s2.add("College of Nursing");

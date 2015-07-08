@@ -95,14 +95,16 @@ public class FragmentAcademics extends Fragment {
         colleges.add("Computer Studies");
         colleges.add("Criminology");
         colleges.add("Education");
-        colleges.add("Hotel and Restaurant Services");
+        colleges.add("Engineering and Architecture");
+        colleges.add("Hotel and Restaurant Services and Tourism Management");
+        colleges.add("Law");
+        colleges.add("Library and Information Science");
         colleges.add("Midwifery");
         colleges.add("Nursing");
         colleges.add("Pharmacy");
-        colleges.add("Engineering and Architecture");
+        colleges.add("Political Science");
         colleges.add("Science and Mathematics");
         colleges.add("Social Work");
-        colleges.add("Law");
 
         listDataChild.put(listDataHeader.get(0), colleges);
 

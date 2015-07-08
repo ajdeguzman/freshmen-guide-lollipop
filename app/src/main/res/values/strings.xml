@@ -1537,6 +1537,7 @@ of and the action asked for.</p>
 	<string name="title_activity_viewing_individual_org">Student Organization</string>
 	<string name="title_activity_viewing_individual_college">Student Organization</string>
     <string name="title_activity_fragment_org_chart">Organizational Chart</string>
+    <string name="title_activity_viewing_people">ViewingPeople</string>
 </resources>
 
 
