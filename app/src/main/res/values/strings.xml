@@ -176,7 +176,7 @@
 		<p>Academic and skills competence are the guiding goals of the College\'s curriculum. This is why the curricular offerings of the college are all geared to promote academic improvement of the students and to develop skills and trainings necessary in the course they have taken.</p>
 
 		<p><b>Unity</b></p>
-		<p>The College encourages co-curricular and extra-curricular activities taht will promote unity and cooperation among the stakeholders. UCU realizes through these activities that more than celebrating each unique facet of its members, it likewise foster cooperation and teamwork, and serve as unifying medium, linking one part of the academic community to another part.</p>
+		<p>The College encourages co-curricular and extra-curricular activities that will promote unity and cooperation among the stakeholders. UCU realizes through these activities that more than celebrating each unique facet of its members, it likewise foster cooperation and teamwork, and serve as unifying medium, linking one part of the academic community to another part.</p>
 		]]>
     </string>
         <!-- UCU Programs Ends -->
@@ -1528,7 +1528,26 @@ of and the action asked for.</p>
 		<p>6. Complaint of a student against the University President. A formal letter of complaint must be presented to the Chairman of the Board of Regents.</p>
    ]]>
     </string>
-        <string name="title_activity_dummy">dummy</string>
+    <string name="title_hymn">
+        <![CDATA[
+            <p>Let\'s praise our dear alma mater</p>
+            <p>With Gratefulness and sincerity</p>
+            <p>Urdaneta City University</p>
+            <p>Shine brightly in the sky</p>
+            <p>We give to you our loyalty</p>
+            <p>We will support and stand by you</p>
+            <p>Your noble cause will be remembered</p>
+            <p>We will carry on forever more!</p>
+            <p>Your light will always shine</p>
+            <p>In our hearts</p>
+            <p>Your legacy we will sing</p>
+            <p>We will proclaim your mission and vision</p>
+            <p>To our city you are a blessing</p>
+            <p>Coda:</p>
+            <p>UCU, we dedicate to you</p>
+            <p>Our commitment for we love you!</p>
+        ]]>
+    </string>
     <string name="title_activity_fragment_courses_offered">FragmentCoursesOffered</string>
 
     <string name="hello_world">Hello world!</string>
@@ -1537,7 +1556,7 @@ of and the action asked for.</p>
 	<string name="title_activity_viewing_individual_org">Student Organization</string>
 	<string name="title_activity_viewing_individual_college">Student Organization</string>
     <string name="title_activity_fragment_org_chart">Organizational Chart</string>
-    <string name="title_activity_viewing_people">ViewingPeople</string>
+    <string name="title_activity_viewing_people">rganizational Chart</string>
 </resources>
 
 

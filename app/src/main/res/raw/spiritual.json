@@ -10,5 +10,11 @@
         "name": "Every Nation Campus (formerly LifeBox)",
         "img": "every_nation",
         "description": " To prepare students for LIFE that is training and equipping students in the areas of Leadership, Influence, Faith and Excellence."
-    }
+    },
+     "2": {
+         "id": "cycm",
+         "name": "Catholic Youth Christian Ministry",
+         "img": "cycm",
+         "description": " To prepare students for LIFE that is training and equipping students in the areas of Leadership, Influence, Faith and Excellence."
+     }
 }

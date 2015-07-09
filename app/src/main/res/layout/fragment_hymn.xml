@@ -1,8 +1,39 @@
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="32dp"
-    tools:context=".MainActivity">
-</RelativeLayout>
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    android:background="#D3D6DB" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_margin="13dp"
+        android:scrollbars="none"
+        android:padding="5dp"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:id="@+id/txtLyrics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:lineSpacingExtra="5sp"
+                android:layout_marginRight="5dp"
+                android:background="#FFFFFF"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp"
+                android:padding="10dp"
+                android:text="@string/title_hymn"
+                android:textColor="#000"
+                android:gravity="center_vertical|center" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

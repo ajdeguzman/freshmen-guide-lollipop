@@ -327,7 +327,7 @@ public class FragmentOrgChart extends Fragment {
         s2.add("Political Science Department");
         s2.add("Department of Psychology");
         s2.add("College of Tourism");
-        s2.add("College of Hotel and Restaurant Management");
+        s2.add("School of Hotel and Restaurant Management and Tourism Management");
 
         listDataChild.put(listDataHeader.get(0), s1);
         listDataChild.put(listDataHeader.get(1), s2);

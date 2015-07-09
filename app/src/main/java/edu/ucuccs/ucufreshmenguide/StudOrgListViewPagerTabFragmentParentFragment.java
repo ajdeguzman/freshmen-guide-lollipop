@@ -462,7 +462,8 @@ public class StudOrgListViewPagerTabFragmentParentFragment extends BaseFragment 
 
         private static final String[] SPIRITUAL_LIST = new String[]{
                 "Kristianong Kabataan Para Sa Bayan",
-                "Every Nation Campus"
+                "Every Nation Campus",
+                "Catholic Youth Christian Ministry"
         };
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
