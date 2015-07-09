@@ -2,7 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:gesture-image="http://schemas.polites.com/android"
                 xmlns:fab="http://schemas.android.com/apk/res-auto"
+                android:descendantFocusability="blocksDescendants"
                 android:background="#E8E8E8"
+                android:id="@+id/layoutContactUs"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent">
     <edu.gestureimageview.GestureImageView
@@ -25,6 +27,61 @@
         android:textColor="#FFFFFF"
         android:id="@+id/textView34"
         android:layout_below="@+id/imgChart" />
+<RelativeLayout
+    android:id="@+id/layoutMoreOptions"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/moreOptions"
+        android:layout_width="wrap_content"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        fab:fab_addButtonColorNormal="@color/myPrimaryColor"
+        fab:fab_addButtonColorPressed="@color/myPrimaryDarkColor"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_addButtonStrokeVisible="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabPlace"
+            fab:fab_icon="@mipmap/ic_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabWebsite"
+            fab:fab_icon="@mipmap/ic_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_size="mini"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabCall"
+            fab:fab_icon="@mipmap/ic_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_size="mini"/>
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabMail"
+            fab:fab_icon="@mipmap/ic_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_size="mini"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+</RelativeLayout>
 
     <com.melnykov.fab.ObservableScrollView
         android:layout_width="fill_parent"
@@ -72,6 +129,7 @@
                     android:textColor="#000"
                     android:layout_width="266dp"
                     android:layout_weight="1"
+                    android:lineSpacingExtra="3sp"
                     android:layout_height="wrap_content"
                     android:text="#1 San Vicente West, Urdaneta City, \n Pangasinan 2428, Philippines"
                     android:textSize="15sp" />
@@ -133,18 +191,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:padding="5dp"
-                    android:text="@string/generalPolicies"
+                    android:text="(+632)075-6380"
                     android:textSize="15sp" />
             </LinearLayout>
-            <com.melnykov.fab.FloatingActionButton
-                android:id="@+id/btnMenuContacts"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom|right"
-                android:layout_margin="16dp"
-                android:src="@mipmap/ic_list"
-                fab:fab_colorNormal="@color/myPrimaryColor"
-                fab:fab_colorPressed="@color/myPrimaryDarkColor" />
         </LinearLayout>
     </com.melnykov.fab.ObservableScrollView>
 </RelativeLayout>
