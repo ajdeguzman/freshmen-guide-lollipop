@@ -13,7 +13,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 public class FragmentStudentOrg extends Fragment {
-    public static final String TAG = "hymn";
     private Toolbar mToolbar;
     private Button btnStudOrg;
 

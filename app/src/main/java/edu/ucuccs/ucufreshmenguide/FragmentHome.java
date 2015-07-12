@@ -2,9 +2,8 @@ package edu.ucuccs.ucufreshmenguide;
 
 import android.annotation.SuppressLint;
 import android.app.Fragment;
-import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.net.Uri;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
@@ -20,10 +19,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.dexafree.materialList.cards.BigImageButtonsCard;
-import com.dexafree.materialList.cards.OnButtonPressListener;
 import com.dexafree.materialList.cards.WelcomeCard;
-import com.dexafree.materialList.model.Card;
 import com.dexafree.materialList.view.MaterialListView;
 
 import org.json.JSONArray;
@@ -54,7 +50,7 @@ public class FragmentHome extends Fragment {
         mSwipeRefreshLayout = (SwipeRefreshLayout) rootView.findViewById(R.id.activity_main_swipe_refresh_layout);
 
         feedItems = new ArrayList<FeedItem>();
-        /*card = new WelcomeCard(getActivity());
+        card = new WelcomeCard(getActivity());
         card.setTitle("Welcome to UCU!");
         card.setSubtitle("A University where character is utmost");
         card.setDescription("Browse the guide now");
@@ -65,32 +61,7 @@ public class FragmentHome extends Fragment {
         card.setSubtitleColor(Color.parseColor("#FFFFFF"));
         card.setDescriptionColor(Color.parseColor("#FFFFFF"));
         card.setButtonTextColor(Color.parseColor("#FFFFFF"));
-        mListView.add(card);*/
-
-        BigImageButtonsCard card2 = new BigImageButtonsCard(getActivity());
-        card2.setTitle("Welcome to UCU!");
-        card2.setDescription("A University Where character is utmost!ploy Please rate our app");
-        card2.setLeftButtonText("LATER");
-        card2.setRightButtonText("OKAY");
-        card2.setDrawable(R.mipmap.ucu_header);
-        card2.setOnRightButtonPressedListener(new OnButtonPressListener() {
-            @Override
-            public void onButtonPressedListener(View view, Card card) {
-                final String my_package_name = "edu.ucuccs.ucufreshmenguide";
-                String url = "";
-
-                try {
-                    getActivity().getPackageManager().getPackageInfo("com.android.vending", 0);
-                    url = "market://details?id=" + my_package_name;
-                } catch ( final Exception e ) {
-                    url = "https://play.google.com/store/apps/details?id=" + my_package_name;
-                }
-                final Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
-                startActivity(intent);
-            }
-        });
-        mListView.add(card2);
+        mListView.add(card);
 
 
         listAdapter = new FeedListAdapter(getActivity(), feedItems);

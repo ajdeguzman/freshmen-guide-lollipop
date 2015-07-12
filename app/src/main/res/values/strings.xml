@@ -1969,6 +1969,54 @@ Resources:<br />
     <string name="law">
     </string>
     <!-- law ends -->
+    <!-- cpd starts-->
+    <string name="cpd">
+            <![CDATA[
+                <p><b>Courses Offered</b></p>
+                &#8226; Certificate in Guidance and Counseling<br />
+                &#8226; Certificate in Physical Education and Sports Management<br />
+                &#8226; Certificate in Special Education<br />
+                &#8226; Certificate in Early Childhood Education<br />
+                &#8226; Certificate in Community Health Education<br />
+                &#8226; Certificate in Science Teaching<br />
+                &#8226; Certificate in Mathematics Teaching<br />
+                &#8226; Certificate in Filipino Teaching<br />
+                &#8226; Certificate in English Teaching<br />
+                &#8226; Certificate in Values Education<br />
+                &#8226; Certificate in Language Teaching<br />
+                &#8226; Certificate in TLE Teaching<br />
+                &#8226; Certificate in Social Science Teaching<br />
+                &#8226; Certificate in Rural Health Services<br />
+                &#8226; Certificate in Information and Communications Technology<br />
+                &#8226; Certificate in Security Management<br />
+                &#8226; Certificate in Law Enforcement Administration<br />
+                &#8226; Certificate in Hospitality Management and Public Relation<br />
+                &#8226; Certificate in Environmental Studies<br />
+                &#8226; Certificate in Alternative Learning System<br />
+                &#8226; Certificate in Alternative Medicine<br />
+                &#8226; Certificate in Barangay Governance<br />
+                &#8226; Certificate in Educational Management<br />
+                &#8226; Certificate in Public Administration<br />
+                &#8226; Certificate in Business Administration<br />
+                &#8226; Certificate in Social Work<br />
+                &#8226; Certificate in Agribusiness<br />
+                &#8226; Executive Course in Legal Management<br />
+                &#8226; Executive Course in Leadership and Organizational Management<br />
+                &#8226; Executive Course in Human Relation and Values Formation<br />
+                &#8226; Executive Course in Fiscal Management<br />
+                &#8226; Executive Course in Program/Project Management<br />
+                &#8226; Executive Course in Teaching Methodology<br />
+                &#8226; Executive Course in Office Management<br />
+                &#8226; Executive Course in Cooperative Management<br />
+                &#8226; Executive Course in Building Electrical Installation and Management<br />
+                &#8226; Executive Course in Records Management<br />
+                &#8226; Executive Course in Resource Development and Management<br />
+                &#8226; Executive Course in Public Speaking<br />
+                &#8226; Executive Course in Business Correspondence<br />
+                &#8226; Executive Course in Research Education
+            ]]>
+    </string>
+    <!-- cpd ends -->
 </resources>
 
 

@@ -2,6 +2,7 @@ package edu.ucuccs.ucufreshmenguide;
 
 import android.app.Fragment;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.Html;
@@ -23,6 +24,7 @@ public class FragmentUCUHymn extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         rootView = inflater.inflate(R.layout.fragment_hymn, container, false);
+        getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 
         videoHymn = (VideoView) rootView.findViewById(R.id.videoHymn);

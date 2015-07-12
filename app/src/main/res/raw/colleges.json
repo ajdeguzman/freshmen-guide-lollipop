@@ -94,5 +94,17 @@
       "name":"College of Social Works",
       "img":"header_social",
       "description":"sw"
+   },
+   "16":{
+      "id":"header_gs",
+      "name":"Graduate Studies",
+      "img":"header_gs",
+      "description":"graduatestudies"
+   },
+   "17":{
+      "id":"header_cpd",
+      "name":"Continuing Professional Development",
+      "img":"header_cpd",
+      "description":"cpd"
    }
 }

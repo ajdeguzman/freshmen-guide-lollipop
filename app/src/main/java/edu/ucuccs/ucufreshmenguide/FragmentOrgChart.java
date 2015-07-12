@@ -293,8 +293,8 @@ public class FragmentOrgChart extends Fragment {
         listDataHeader = new ArrayList<String>();
         listDataChild = new HashMap<String, List<String>>();
 
-        listDataHeader.add("Administrative | Non-Teaching Personnel");
-        listDataHeader.add("Academic | Teaching Organization");
+        listDataHeader.add("Administrative & Non-Teaching Personnel");
+        listDataHeader.add("Teaching Personnel");
 
         List<String> s1 = new ArrayList<String>();
         s1.add("Academic Council");
@@ -326,7 +326,6 @@ public class FragmentOrgChart extends Fragment {
         s2.add("School of Midwifery and Caregiving");
         s2.add("Political Science Department");
         s2.add("Department of Psychology");
-        s2.add("College of Tourism");
         s2.add("School of Hotel and Restaurant Management and Tourism Management");
 
         listDataChild.put(listDataHeader.get(0), s1);

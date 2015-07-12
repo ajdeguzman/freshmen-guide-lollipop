@@ -42,7 +42,7 @@ public class FragmentAcademics extends Fragment {
 
             @Override
             public boolean onGroupClick(ExpandableListView arg0, View arg1, int arg2, long arg3) {
-                return false;
+                return true;
             }
         });
         expListView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
@@ -85,9 +85,7 @@ public class FragmentAcademics extends Fragment {
         listDataHeader = new ArrayList<String>();
         listDataChild = new HashMap<>();
 
-        listDataHeader.add("Colleges");
-        listDataHeader.add("Graduate Studies");
-        listDataHeader.add("Continuing Professional Development");
+        listDataHeader.add("Colleges & Departments");
 
         List<String> colleges = new ArrayList<String>();
         colleges.add("Accountancy and Business Administration");
@@ -106,6 +104,8 @@ public class FragmentAcademics extends Fragment {
         colleges.add("Political Science");
         colleges.add("Science and Mathematics");
         colleges.add("Social Work");
+        colleges.add("Graduate Studies");
+        colleges.add("Continuing Professional Development");
         listDataChild.put(listDataHeader.get(0), colleges);
 
     }
