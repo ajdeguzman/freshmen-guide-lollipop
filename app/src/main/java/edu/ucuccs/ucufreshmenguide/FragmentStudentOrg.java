@@ -12,24 +12,25 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-public  class FragmentStudentOrg extends Fragment {
+public class FragmentStudentOrg extends Fragment {
     public static final String TAG = "hymn";
     private Toolbar mToolbar;
     private Button btnStudOrg;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.stud_org, container, false);
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        btnStudOrg = (Button)rootView.findViewById(R.id.btnStudOrg);
-            btnStudOrg.setOnClickListener(new OnClickListener() {
-                @Override
-                public void onClick(View arg0) {
-                    startActivity(new Intent(getActivity(), ViewingStudOrgList.class));
-                }
-            });
-            return rootView;
-        }
-
-
+        btnStudOrg = (Button) rootView.findViewById(R.id.btnStudOrg);
+        btnStudOrg.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                startActivity(new Intent(getActivity(), ViewingStudOrgList.class));
+            }
+        });
+        return rootView;
     }
+
+
+}

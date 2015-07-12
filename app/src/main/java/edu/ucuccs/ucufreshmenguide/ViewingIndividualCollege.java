@@ -6,6 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
@@ -117,12 +118,12 @@ public class ViewingIndividualCollege extends BaseActivity implements Observable
 
                 String imgStr = individualOrgObject.getString("img").toString();
                 String nameStr = individualOrgObject.getString("name").toString();
-                String descriptionStr = individualOrgObject.getString("description").toString();
+                String descriptionStr = getStringResourceByName(individualOrgObject.getString("description").toString());
 
                 int imgPath = getResources().getIdentifier(imgStr, "drawable", getPackageName());
                 Drawable image = getResources().getDrawable(imgPath == 0 ? R.mipmap.ucu_header : imgPath);
                 mImageView.setBackground(image);
-                mDescription.setText(descriptionStr);
+                mDescription.setText(Html.fromHtml(descriptionStr));
                 mName.setText(nameStr);
             }
         } catch (IOException e) {
@@ -131,5 +132,14 @@ public class ViewingIndividualCollege extends BaseActivity implements Observable
             e.printStackTrace();
         }
         super.onStart();
+    }private String getStringResourceByName(String aString) {
+        String packageName = getPackageName();
+        int resId = getResources()
+                .getIdentifier(aString, "string", packageName);
+        if (resId == 0) {
+            return aString;
+        } else {
+            return getString(resId);
+        }
     }
 }

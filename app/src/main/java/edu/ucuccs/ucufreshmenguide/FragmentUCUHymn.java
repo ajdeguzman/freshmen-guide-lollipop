@@ -17,6 +17,7 @@ public class FragmentUCUHymn extends Fragment {
     TextView txtLyrics;
     View rootView;
     VideoView videoHymn;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -30,7 +31,7 @@ public class FragmentUCUHymn extends Fragment {
         videoHymn.start();
         MediaController myController = new MediaController(getActivity());
         videoHymn.setMediaController(myController);
-        txtLyrics = (TextView)rootView.findViewById(R.id.txtLyrics);
+        txtLyrics = (TextView) rootView.findViewById(R.id.txtLyrics);
         txtLyrics.setText(Html.fromHtml(getString(R.string.title_hymn)));
 
         rootView.findViewById(R.id.btnFullScreen).setOnClickListener(new View.OnClickListener() {

@@ -1,20 +1,20 @@
 {
     "0": {
-        "id": "kkb",
+        "id": "org_kkb",
         "name": "Kristianong Kabataan Para sa Bayan",
-        "img": "kkb",
+        "img": "org_kkb",
         "description": "College Ministry partnering with schools to help students excel in their academics, develops leadership skill, be a positive influence in their community, and pursues a god-centered lifestyle."
     },
     "1": {
-        "id": "every_nation",
+        "id": "org_every_nation",
         "name": "Every Nation Campus (formerly LifeBox)",
-        "img": "every_nation",
+        "img": "org_every_nation",
         "description": " To prepare students for LIFE that is training and equipping students in the areas of Leadership, Influence, Faith and Excellence."
     },
      "2": {
-         "id": "cycm",
+         "id": "org_cycm",
          "name": "Catholic Youth Christian Ministry",
-         "img": "cycm",
+         "img": "org_cycm",
          "description": " To prepare students for LIFE that is training and equipping students in the areas of Leadership, Influence, Faith and Excellence."
      }
 }

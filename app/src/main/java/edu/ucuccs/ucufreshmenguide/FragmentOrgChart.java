@@ -72,7 +72,7 @@ public class FragmentOrgChart extends Fragment {
                     case 0:
                         switch (childPosition) {
                             case 0: {
-                                Intent i = new Intent(getActivity(),ChartViewLandscape.class);
+                                Intent i = new Intent(getActivity(), ChartViewLandscape.class);
                                 int index = 0;
                                 i.putExtra("index_key", index);
                                 startActivity(i);

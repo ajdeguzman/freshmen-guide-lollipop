@@ -30,30 +30,25 @@ public class FacultyAdapter extends RecyclerView.Adapter<FacultyAdapter.PersonVi
     }
 
     List<ClassFaculty> persons;
-
     FacultyAdapter(List<ClassFaculty> persons){
         this.persons = persons;
     }
-
     @Override
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
     }
-
     @Override
     public PersonViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
         View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.layout_faculty, viewGroup, false);
         PersonViewHolder pvh = new PersonViewHolder(v);
         return pvh;
     }
-
     @Override
     public void onBindViewHolder(PersonViewHolder personViewHolder, int i) {
         personViewHolder.personName.setText(persons.get(i).name);
         personViewHolder.personAge.setText(persons.get(i).age);
         personViewHolder.personPhoto.setImageResource(persons.get(i).photoId);
     }
-
     @Override
     public int getItemCount() {
         return persons.size();

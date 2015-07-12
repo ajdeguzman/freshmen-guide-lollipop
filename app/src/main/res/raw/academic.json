@@ -1,80 +1,80 @@
 {
     "0": {
-        "id": "ssg",
+        "id": "org_ssg",
         "name": "Supreme Student Council",
-        "img": "ssg",
+        "img": "org_ssg",
         "description": "Endeavor to promote the general welfare and uphold the fundamental rights of the Student body that promote harmonious students, faculty and administrative relation. Endeavor to promote the general welfare and uphold the fundamental rights of the Student body that promote harmonious students, faculty and administrative relation. Endeavor to promote the general welfare and uphold the fundamental rights of the Student body that promote harmonious students, faculty and administrative relation."
     },
     "1": {
-        "id": "gssg",
+        "id": "org_gssg",
         "name": "Graduate School Student Government",
-        "img": "gssg",
+        "img": "org_gssg",
         "description": "It fosters the professional growth and development of graduate students of the University through the promotions of the intellectual, social, spiritual, cultural and physical well-being."
     },
     "2": {
-        "id": "scribe",
+        "id": "org_scribe",
         "name": "University Scribe",
-        "img": "scribe",
+        "img": "org_scribe",
         "description": "To uphold and protect the freedom of the press at the campus and promote the development and growth of campus journalism as a means of strengthening ethical values, encouraging critical and creative thinking and developing moral characters and personal discipline of the Filipino Youth. University Scribe is the official student publication of the Urdaneta City University. In its 10 years of existence under its current name and adviser, The University Scribe has striven to be on top of its game and has made a legacy through bagging various awards in the annual Regional Higher Educational Press Conference (RHEPC) and Luzon-wide Higher Education Press Conference (LHEPC)."
     },
     "3": {
-        "id": "honors",
+        "id": "org_honors",
         "name": "Honors Society",
         "img": "honors",
         "description": "Recognizes the members are the academic scholars of the Urdaneta City University and intensity the student’s desire and capacity to learn towards the achievement of academic excellence through its free tutorial program."
     },
     "4": {
-        "id": "jpia",
+        "id": "org_jpia",
         "name": "Junior Philippine Institute of Accountants",
-        "img": "jpia",
+        "img": "org_jpia",
         "description": "To create unity among students of Accountancy Department and assist the members who encounter difficulties in accounting subjects, business law, management services and other related subjects."
     },
    "5": {
-        "id": "finance",
+        "id": "org_finance",
         "name": "United Management Accounting and Finance League",
-        "img": "finance",
+        "img": "org_finance",
         "description": "To develop and utilize the talents and potentials of Commerce students to assume a dynamic and responsible attitude towards social development, intellectual and academic excellence and aim for unity and solidarity among members."
    },
    "6": {
-        "id": "jits",
+        "id": "org_jits",
         "name": "Junior Information Technology Society",
-        "img": "jits",
+        "img": "org_jits",
         "description": "Concentrate its help and assistance that will develop skills, attitude and knowledge of the Information Technology students."
    },
     "7": {
-        "id": "acts",
+        "id": "org_acts",
         "name": "Association of Computer Technology Society",
-        "img": "acts",
+        "img": "org_acts",
         "description": "To foster unity, cooperation and camaraderie among computer students through active participation in common undertaking that aims to promote their total development."
     },
     "8": {
-        "id": "hrmo",
+        "id": "org_hrmo",
         "name": "Hotel and Restaurant Management Organization",
-        "img": "hrmo",
+        "img": "org_hrmo",
         "description": "To foster unity, cooperation and camaraderie among computer students through active participation in common undertaking that aims to promote their total development."
     },
     "9": {
-        "id": "hrso",
+        "id": "org_hrso",
         "name": "Hotel and Restaurant Services Organization",
-        "img": "hrso",
+        "img": "org_hrso",
         "description": "To enhance training skills and craftsmanship of students towards their holistic development."
     },
     "10": {
-        "id": "assistants",
+        "id": "org_assistants",
         "name": "Circle of Student Assistants",
-        "img": "assistants",
+        "img": "org_assistants",
         "description": " The Circle is directed towards the goal of establishing camaraderie among student assistants by assisting various offices in the University and develops among them the values and power of leadership, creativity, responsibility and inspiration."
     },
      "11": {
-         "id": "apothecary",
+         "id": "org_apothecary",
          "name": "Apothecary Society",
-         "img": "apothecary",
+         "img": "org_apothecary",
          "description": "Representing the opinions of pharmaceutical students in discussions with professional, governmental and non-governmental organisations."
      },
    "12": {
-       "id": "tourism_movers",
+       "id": "org_tourism_movers",
        "name": "Tourism Movers Society",
-       "img": "tourism_movers",
+       "img": "org_tourism_movers",
        "description": "To enhance training skills and craftsmanship of students towards their holistic development."
    }
 }

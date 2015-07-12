@@ -36,7 +36,5 @@
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
 
         <item name="android:windowBackground">@color/myWindowBackground</item>
-        <!--<item name="android:spinnerItemStyle">@style/AppTheme.SpinnerItemStyle</item>
-        <item name="android:spinnerDropDownItemStyle">@style/AppTheme.SpinnerDropDownItemStyle</item>-->
     </style>
 </resources>

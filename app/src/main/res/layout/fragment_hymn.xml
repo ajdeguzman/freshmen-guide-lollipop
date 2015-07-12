@@ -23,12 +23,11 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:layout_margin="5dp"
-            android:lineSpacingExtra="5sp"
+            android:lineSpacingExtra="3sp"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:text="@string/title_hymn"
             android:id="@+id/txtLyrics"
             android:textColor="#000"
-            android:layout_gravity="center"
             android:gravity="center|center_vertical" />
     </ScrollView>
 

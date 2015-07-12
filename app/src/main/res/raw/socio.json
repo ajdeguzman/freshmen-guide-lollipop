@@ -1,14 +1,14 @@
 {
     "0": {
-        "id": "jcrom",
+        "id": "org_jcrom",
         "name": "Junior Circle Responsible Owners of Motorcycle",
-        "img": "jcrom",
+        "img": "org_jcrom",
         "description": "To assist and guide students to be responsible owners of Motorcycles in obeying and observing traffic rules and regulations prescribe by the Land Transportation Office (LTO)."
     },
      "1": {
-         "id": "yoga",
+         "id": "org_yoga",
          "name": "Yoga Science Club",
-         "img": "yoga",
+         "img": "org_yoga",
          "description": "Promote the Science of Yoga, the yoga lifestyle and instill health, inner peace, satisfaction and well-being of mind, body, and spirit into the lives of all individuals."
      }
 }

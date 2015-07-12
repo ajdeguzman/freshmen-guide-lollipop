@@ -31,7 +31,7 @@ public class FragmentAcademics extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_handbook,container, false);
+        View rootView = inflater.inflate(R.layout.fragment_handbook, container, false);
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         expListView = (ExpandableListView) rootView.findViewById(R.id.listView);
         prepareListData();
@@ -53,7 +53,7 @@ public class FragmentAcademics extends Fragment {
                 if (groupPosition != previousGroup)
                     expListView.collapseGroup(previousGroup);
                 previousGroup = groupPosition;
-                Log.d("HAHA", groupPosition+"");
+                Log.d("HAHA", groupPosition + "");
             }
         });
 
@@ -80,6 +80,7 @@ public class FragmentAcademics extends Fragment {
         expListView.expandGroup(0);
         return rootView;
     }
+
     private void prepareListData() {
         listDataHeader = new ArrayList<String>();
         listDataChild = new HashMap<>();
@@ -105,7 +106,6 @@ public class FragmentAcademics extends Fragment {
         colleges.add("Political Science");
         colleges.add("Science and Mathematics");
         colleges.add("Social Work");
-
         listDataChild.put(listDataHeader.get(0), colleges);
 
     }

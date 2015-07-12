@@ -1,44 +1,44 @@
 {
     "0": {
-        "id": "chess",
+        "id": "org_chess",
         "name": "Chess Club",
-        "img": "chess",
+        "img": "org_chess",
         "description": "This club will serve to hone young and talented athletes who will be an asset to the University in the field of Chess."
     },
     "1": {
-        "id": "table_tennis",
+        "id": "org_table_tennis",
         "name": "Table Tennis Club",
-        "img": "table_tennis",
+        "img": "org_table_tennis",
         "description": "To hone talented students to display their unique skills primary in the field of Table Tennis."
     },
     "2": {
-        "id": "dart",
+        "id": "org_dart",
         "name": "Dart Club",
-        "img": "dart",
+        "img": "org_dart",
         "description": "To stage tournament by initializing and discover bright and promising dart players that imbued sportsmanship"
     },
     "3": {
-        "id": "volleyball",
+        "id": "org_volleyball",
         "name": "Volleyball Club",
-        "img": "volleyball",
+        "img": "org_volleyball",
         "description": "This club serves as their training ground for the prospective players to become a number of the varsity team."
     },
     "4": {
-        "id": "badminton",
+        "id": "org_badminton",
         "name": "Badminton Club",
-        "img": "badminton",
+        "img": "org_badminton",
         "description": "Aims to develop students the opportunity to show and hone their talent and skills in the field of Badminton."
     },
    "5": {
-        "id": "track_field",
+        "id": "org_track_field",
         "name": "Track and Field Club",
-        "img": "track_field",
+        "img": "org_track_field",
         "description": "Aims to develop students on discipline toughness and endurance by promoting the spirit of sportsmanship."
    },
    "6": {
-        "id": "basketball",
+        "id": "org_basketball",
         "name": "Basketball Club",
-        "img": "basketball",
+        "img": "org_basketball",
         "description": "This club serves as their training ground for the prospective Varsity Players that possess a good character, toughness, unselfishness by conducting basketball clinics within the University campus."
    }
 }

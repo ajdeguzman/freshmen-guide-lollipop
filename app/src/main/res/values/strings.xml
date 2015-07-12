@@ -22,13 +22,20 @@
     <string name="title_activity_fragment_campus_map">FragmentCampusMap</string>
 
 
-	<string name="contact_map">Where is UCU?</string>
-	<string name="contact_website">Visit Website</string>
-	<string name="contact_email">Send an E-mail</string>
-	<string name="contact_phone">Call Us</string>
+    <string name="contact_map">Where is UCU?</string>
+    <string name="contact_website">Visit Website</string>
+    <string name="contact_email">Send an E-mail</string>
+    <string name="contact_phone">Call Us</string>
 
-        <!-- Primir Starts -->
-    <string name="primir">
+    <string name="title_activity_fragment_courses_offered">FragmentCoursesOffered</string>
+    <string name="title_activity_fragment_home">FragmentHome</string>
+    <string name="title_activity_viewing_individual_org">Student Organization</string>
+    <string name="title_activity_viewing_individual_college">Student Organization</string>
+    <string name="title_activity_fragment_org_chart">Organizational Chart</string>
+    <string name="title_activity_viewing_people">Organizational Chart</string>
+
+    <!-- Primir Starts -->
+<string name="primir">
 <![CDATA[
 		<p><b>PRIMIR</b></p>
 		<p><b>INTRODUCTION</b></p>
@@ -110,10 +117,10 @@
 
    ]]>
     </string>
-        <!-- Primir End -->
+    <!-- Primir End -->
 
 
-        <!-- VMGO Starts -->
+    <!-- VMGO Starts -->
     <string name="vmgo">
 <![CDATA[
 		<p><b>Vision</b></p>
@@ -140,10 +147,10 @@
 
 	]]>
     </string>
-        <!-- VMGO Ends -->
+    <!-- VMGO Ends -->
 
 
-        <!-- University Seal Starts -->
+    <!-- University Seal Starts -->
     <string name="seal">
 <![CDATA[
 		<p><b>University Seal</b></p>
@@ -158,10 +165,10 @@
 	The intense zeal is further reflected in the suns golden rays, arising out of the colleges dedication to banish the cobwebs of ignorance through education. CCU believes that like gold which will never tarnish, quality education is a gift that the school will forever endow to humanity. Hence, the sun rays move outwards, following the Colleges desire to reach out, as an institution and through its students, especially in promoting community development, nation-building and global brotherhood.</p>
 		]]>
     </string>
-        <!-- University Seal Ends -->
+    <!-- University Seal Ends -->
 
 
-        <!-- UCU Programs Starts -->
+    <!-- UCU Programs Starts -->
     <string name="programs">
 <![CDATA[
 		<p><b>UCU PROGRAMS</b></p>
@@ -179,10 +186,10 @@
 		<p>The College encourages co-curricular and extra-curricular activities that will promote unity and cooperation among the stakeholders. UCU realizes through these activities that more than celebrating each unique facet of its members, it likewise foster cooperation and teamwork, and serve as unifying medium, linking one part of the academic community to another part.</p>
 		]]>
     </string>
-        <!-- UCU Programs Ends -->
+    <!-- UCU Programs Ends -->
 
 
-        <!-- Admission Starts -->
+    <!-- Admission Starts -->
     <string name="admission">
 <![CDATA[
 		<p><b>Admission</b></p>
@@ -209,10 +216,10 @@
 		<p>c.) Any doubt arising there from shall be resolved by the Vice President for Academic Affairs.</p>
 	]]>
     </string>
-        <!-- UCU Programs Ends -->
+    <!-- UCU Programs Ends -->
 
 
-        <!-- Academic Retention Starts -->
+    <!-- Academic Retention Starts -->
     <string name="retention">
 <![CDATA[
 		<p><b>Academic Retention</b></p>
@@ -222,10 +229,10 @@
 
    ]]>
     </string>
-        <!-- Retention End -->
+    <!-- Retention End -->
 
 
-        <!-- Registration Procedures Starts -->
+    <!-- Registration Procedures Starts -->
     <string name="registrationProcedures">
 <![CDATA[
 
@@ -248,10 +255,10 @@
 		<p>A student who wishes to shift his course shall secure and accomplish four copies of shifting form from the Office of the Registrar. The accomplished form shall be subsequently signed by the Guidance Office, Dean of the previous department, Dean of the receiving department and Office of the Registrar.</p>
    ]]>
     </string>
-        <!-- Registration Procedures End -->
+    <!-- Registration Procedures End -->
 
 
-        <!-- Curriculum Revision and Implementation Starts -->
+    <!-- Curriculum Revision and Implementation Starts -->
     <string name="curriculumRevisionAndImplementation">
 <![CDATA[
 		<p><b>Curriculum Revision and Implementation</b></p>
@@ -260,10 +267,10 @@
 		<p>3. If a student fails to the finish the course within the prescribe maximum number of years of his curriculum, he shall automatically follow the new curriculum.</p>
    ]]>
     </string>
-        <!-- Curriculum Revision and Implementation End -->
+    <!-- Curriculum Revision and Implementation End -->
 
 
-        <!-- Classification of Students Starts -->
+    <!-- Classification of Students Starts -->
     <string name="classificationOfstudents">
 <![CDATA[
 		<p><b>Classification of Students</b></p>
@@ -288,10 +295,10 @@
 
    ]]>
     </string>
-        <!-- Classification of Students End -->
+    <!-- Classification of Students End -->
 
 
-        <!-- Scholarship And Grants Starts -->
+    <!-- Scholarship And Grants Starts -->
     <string name="scholarshipAndGrants" formatted="false">
 <![CDATA[
 		<p><b>Scholarship And Grants For Students</b></p>
@@ -506,20 +513,20 @@
 
    ]]>
     </string>
-        <!-- Scholarship And Grants End -->
+    <!-- Scholarship And Grants End -->
 
 
-        <!-- School Terms Starts -->
+    <!-- School Terms Starts -->
     <string name="schoolTerms">
 <![CDATA[
 		<p><b>School Terms</b></p>
 		<p>The University\'s academic year id composed of two semesters(a minimum of 18 weeks per semester) and one summer term (consisting of 6 weeks).</p>
    ]]>
     </string>
-        <!-- School Terms End -->
+    <!-- School Terms End -->
 
 
-        <!-- Class Hours Starts -->
+    <!-- Class Hours Starts -->
     <string name="classHours">
 <![CDATA[
 		<p><b>Class Hours</b></p>
@@ -532,10 +539,10 @@
 
    ]]>
     </string>
-        <!-- Class Hours End -->
+    <!-- Class Hours End -->
 
 
-        <!-- Academic Load Starts -->
+    <!-- Academic Load Starts -->
     <string name="academicLoad">
 <![CDATA[
 		<p><b>Academic Load</b></p>
@@ -590,10 +597,10 @@
 		<p>This is applicable for all board courses.</p>
    ]]>
     </string>
-        <!-- Academic Load End -->
+    <!-- Academic Load End -->
 
 
-        <!-- Grading System Starts -->
+    <!-- Grading System Starts -->
     <string name="gradingSystem" formatted="false">
 <![CDATA[
 		<p><b>D. Grading System</b></p>
@@ -664,10 +671,10 @@
 
    ]]>
     </string>
-        <!-- Primir End -->
+    <!-- Primir End -->
 
 
-        <!-- Graduation Requirements Starts -->
+    <!-- Graduation Requirements Starts -->
     <string name="graduationRequirements">
 <![CDATA[
 		<p><b>Graduation Requirements</b></p>
@@ -682,10 +689,10 @@
 
    ]]>
     </string>
-        <!-- Graduation Requirements End -->
+    <!-- Graduation Requirements End -->
 
 
-        <!-- Citations/Awards Starts -->
+    <!-- Citations/Awards Starts -->
     <string name="citationsAwards">
 <![CDATA[
 		<p><b>Citations/Awards</b></p>
@@ -877,10 +884,10 @@ awards other than hereto stated</p>
 
 	   ]]>
     </string>
-        <!-- Citations/Awards End -->
+    <!-- Citations/Awards End -->
 
 
-        <!-- School Credentials Starts -->
+    <!-- School Credentials Starts -->
     <string name="schoolCridentials">
 <![CDATA[
 		<p><b>School Credentials</b></p>
@@ -927,10 +934,10 @@ purpose/for board exam, etc.)</p>
 Instead, a certificate attesting to his graduation from the University shall be given.</p>
    ]]>
     </string>
-        <!-- School Credentials End -->
+    <!-- School Credentials End -->
 
 
-        <!-- Tuition And Miscellaneous Fees Starts -->
+    <!-- Tuition And Miscellaneous Fees Starts -->
     <string name="tuitionAndMiscellaneousFees" formatted="false">
 <![CDATA[
 		<p><b>Tuition and Miscellaneous Fees</b></p>
@@ -963,10 +970,10 @@ checks shall not be accepted as payment of University fees.</p>
 
    ]]>
     </string>
-        <!-- Tuition And Miscellaneous Fees End -->
+    <!-- Tuition And Miscellaneous Fees End -->
 
 
-        <!-- Academic Freedom As The Right Of An Individual Student Starts -->
+    <!-- Academic Freedom As The Right Of An Individual Student Starts -->
     <string name="academicFreedomAsTheRightOfAnIndividualStudent">
 <![CDATA[
 		<p><b>Academic Freedom as the Right of an Individual Student</b></p>
@@ -996,13 +1003,13 @@ hereto shall be dealt with accordingly.</p>
 
    ]]>
     </string>
-        <!-- Academic Freedom As The Right Of An Individual Student End -->
+    <!-- Academic Freedom As The Right Of An Individual Student End -->
 
 
-        <!-- Tuition And Miscellaneous Fees End -->
+    <!-- Tuition And Miscellaneous Fees End -->
 
 
-        <!-- Duties And Responsibilities Of Students Starts -->
+    <!-- Duties And Responsibilities Of Students Starts -->
     <string name="dutiesAndResponsibilitiesOfStudents">
 <![CDATA[
 		<p><b>Duties and responsibilities of Students</p></b>
@@ -1020,10 +1027,10 @@ hereto shall be dealt with accordingly.</p>
 
    ]]>
     </string>
-        <!-- Duties And Responsibilities Of Students End -->
+    <!-- Duties And Responsibilities Of Students End -->
 
 
-        <!-- OSA Starts -->
+    <!-- OSA Starts -->
     <string name="osa">
 <![CDATA[
 		<p><b>Office of the Student Affairs (OSA)</p></b>
@@ -1041,10 +1048,10 @@ hereto shall be dealt with accordingly.</p>
 
    ]]>
     </string>
-        <!-- OSA End -->
+    <!-- OSA End -->
 
 
-        <!-- Guidance Starts -->
+    <!-- Guidance Starts -->
     <string name="guidance">
 <![CDATA[
 		<p><b>Guidance Office</p></b>
@@ -1068,10 +1075,10 @@ and/or psychologically. Thus, in order to realize its objectives the Office prov
 
    ]]>
     </string>
-        <!-- Guidance End -->
+    <!-- Guidance End -->
 
 
-        <!-- Library Starts -->
+    <!-- Library Starts -->
     <string name="library">
 <![CDATA[
 		<p><b>Library</p></b>
@@ -1083,10 +1090,10 @@ Library shall be in accordance with the library rules and regulation.</p>
 
    ]]>
     </string>
-        <!-- Library End -->
+    <!-- Library End -->
 
 
-        <!-- Multimedia Library Starts -->
+    <!-- Multimedia Library Starts -->
     <string name="multimediaLibrary">
 <![CDATA[
 		<p><b>Multimedia Library</p></b>
@@ -1096,10 +1103,10 @@ and regulations.</p>
 
    ]]>
     </string>
-        <!-- Multimedia Library End -->
+    <!-- Multimedia Library End -->
 
 
-        <!-- Audio-Visual Room Starts -->
+    <!-- Audio-Visual Room Starts -->
     <string name="audioVisualRoom">
 <![CDATA[
 		<p><b>Audio-visual Room</p></b>
@@ -1109,10 +1116,10 @@ to the approval of the University President.</p>
 
    ]]>
     </string>
-        <!-- Audio-Visual Room End -->
+    <!-- Audio-Visual Room End -->
 
 
-        <!-- Laboratories Starts -->
+    <!-- Laboratories Starts -->
     <string name="laboratories">
 <![CDATA[
 		<p><b>Laboratories</p></b>
@@ -1131,10 +1138,10 @@ to the approval of the University President.</p>
 
    ]]>
     </string>
-        <!-- Laboratories End -->
+    <!-- Laboratories End -->
 
 
-        <!-- Enhancement Services Starts -->
+    <!-- Enhancement Services Starts -->
     <string name="enhancementServices">
 <![CDATA[
 		<p><b>Enhancement Services</p></b>
@@ -1143,10 +1150,10 @@ to the approval of the University President.</p>
 
    ]]>
     </string>
-        <!-- Enhancement Services End -->
+    <!-- Enhancement Services End -->
 
 
-        <!-- Sports Development Starts -->
+    <!-- Sports Development Starts -->
     <string name="sportsDevelopment">
 <![CDATA[
 		<p><b>Sports Development Services</p></b>
@@ -1155,10 +1162,10 @@ to the approval of the University President.</p>
 
    ]]>
     </string>
-        <!-- Sports Development End -->
+    <!-- Sports Development End -->
 
 
-        <!-- Medical Starts -->
+    <!-- Medical Starts -->
     <string name="medical">
 <![CDATA[
 		<p><b>Medical/Dental/Nursing Services</p></b>
@@ -1170,10 +1177,10 @@ policy.</p>
 
    ]]>
     </string>
-        <!-- Medical End -->
+    <!-- Medical End -->
 
 
-        <!-- Security Starts -->
+    <!-- Security Starts -->
     <string name="security">
 <![CDATA[
 		<p><b>Security Services</p></b>
@@ -1183,10 +1190,10 @@ security related incidence that may occur inside the campus.</p>
 
    ]]>
     </string>
-        <!-- Security End -->
+    <!-- Security End -->
 
 
-        <!-- Janitorial Starts -->
+    <!-- Janitorial Starts -->
     <string name="janitorial">
 <![CDATA[
 		<p><b>Janitorial Services</p></b>
@@ -1195,10 +1202,10 @@ security related incidence that may occur inside the campus.</p>
 
    ]]>
     </string>
-        <!-- Janitorial End -->
+    <!-- Janitorial End -->
 
 
-        <!-- Canteen Starts -->
+    <!-- Canteen Starts -->
     <string name="canteen">
 <![CDATA[
 		<p><b>Canteen</p></b>
@@ -1206,10 +1213,10 @@ security related incidence that may occur inside the campus.</p>
 
    ]]>
     </string>
-        <!-- Canteen End -->
+    <!-- Canteen End -->
 
 
-        <!-- Definition Starts -->
+    <!-- Definition Starts -->
     <string name="definition">
 <![CDATA[
 		<p><b>Definition</b></p>
@@ -1217,10 +1224,10 @@ security related incidence that may occur inside the campus.</p>
 folios, or other publications, whether printed, mimeographed, photocopied or put in digital format, published by students for campus circulation.</p>
    ]]>
     </string>
-        <!-- Definition End -->
+    <!-- Definition End -->
 
 
-        <!-- Recognition Starts -->
+    <!-- Recognition Starts -->
     <string name="recognition">
 <![CDATA[
 		<p><b>Recognition</b></p>
@@ -1236,10 +1243,10 @@ folios, or other publications, whether printed, mimeographed, photocopied or put
 		population; and d) budget proposal prepared by the president and treasurer of the sponsoring group, duly noted by the adviser(s).</p>
    ]]>
     </string>
-        <!-- Recognition End -->
+    <!-- Recognition End -->
 
 
-        <!-- Printing and Circulation Starts -->
+    <!-- Printing and Circulation Starts -->
     <string name="printingAndCirculation">
 <![CDATA[
 		<p><b>Printing and Circulation</b></p>
@@ -1251,20 +1258,20 @@ folios, or other publications, whether printed, mimeographed, photocopied or put
 
    ]]>
     </string>
-        <!-- Printing and Circulation End -->
+    <!-- Printing and Circulation End -->
 
 
-        <!-- Editorial Starts -->
+    <!-- Editorial Starts -->
     <string name="editorial">
 <![CDATA[
 		<p><b>Editorial Board and Staff Selection</b></p>
 		<p>All members of the editorial board and staff shall undergo the screening process set forth in the Constitutional and By-laws of the University Scribe.</p>
    ]]>
     </string>
-        <!-- Editorial End -->
+    <!-- Editorial End -->
 
 
-        <!-- General Policies Starts -->
+    <!-- General Policies Starts -->
     <string name="generalPolicies">
 <![CDATA[
 		<p><b>A. General Policies</b></p>
@@ -1296,10 +1303,10 @@ to function without the prior approval required.</p>
 
    ]]>
     </string>
-        <!-- General Policies End -->
+    <!-- General Policies End -->
 
 
-        <!-- Specific Policies Starts -->
+    <!-- Specific Policies Starts -->
     <string name="specificPolicies">
 <![CDATA[
 		<p><b>Specific Policies</b></p>
@@ -1335,10 +1342,10 @@ VP-OSA, SC and CSO chairpersons.</p>
 
    ]]>
     </string>
-        <!-- Specific Policies End -->
+    <!-- Specific Policies End -->
 
 
-        <!-- General Policy Starts -->
+    <!-- General Policy Starts -->
     <string name="generalPolicy">
 <![CDATA[
 		<p><b>General Policy</b></p>
@@ -1361,10 +1368,10 @@ VP-OSA, SC and CSO chairpersons.</p>
 		<p>J. No permanent reservation is allowed in the use of any school facility by the university.</p>
    ]]>
     </string>
-        <!-- General Policy End -->
+    <!-- General Policy End -->
 
 
-        <!-- Student Discipline Starts -->
+    <!-- Student Discipline Starts -->
     <string name="studentDiscipline">
 <![CDATA[
 		<p><b>Student Discipline</b></p>
@@ -1386,10 +1393,10 @@ VP-OSA, SC and CSO chairpersons.</p>
 
    ]]>
     </string>
-        <!-- General Policy End -->
+    <!-- General Policy End -->
 
 
-        <!-- Types Of Offenses Starts -->
+    <!-- Types Of Offenses Starts -->
     <string name="typesOfOffenses">
 <![CDATA[
 		<p><b>Types and Offenses</b>
@@ -1548,15 +1555,420 @@ of and the action asked for.</p>
             <p>Our commitment for we love you!</p>
         ]]>
     </string>
-    <string name="title_activity_fragment_courses_offered">FragmentCoursesOffered</string>
+    <!-- ccs Starts -->
+    <string name="ccs">
+<![CDATA[
+		<p><b>Vision</b></p>
+		<p>The College of Computer Studies is committed to provide an excellent computer education that will enhance student\'s skills in computer applications and provide opportunities to keep pace with the fast changing world of computers, making them life long learners in their chosen field.</p>
+		<p><b>Mission</b></p>
+		<p>The College of Computer Studies envisions to become a center of development through quality instruction and state-of-the-art facilities in the field of computer studies.</p>
+  		<p><b>Objectives</b></p>
+  		<p>The core objective of the department is to fulfill its mission as defined in its Mission-Vision statement.</p>
+  		<p>The following objectives, when met, will serve to fulfill the mission of the department.</p>
+  		<p>Graduates will be proficient in Computer Operation</p>
+		<p>Graduates will be proficient in Computer Programming</p>
+		<p>Graduates will have a proficient mastery of the Office Ethics and Practices</p>
+		<p>Graduates will be able to communicate information effectively both in writing and orally</p>
+		<p><b>Courses Offered</b></p>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_fragment_home">FragmentHome</string>
-    <string name="title_activity_splash_screen">SplashScreen</string>
-	<string name="title_activity_viewing_individual_org">Student Organization</string>
-	<string name="title_activity_viewing_individual_college">Student Organization</string>
-    <string name="title_activity_fragment_org_chart">Organizational Chart</string>
-    <string name="title_activity_viewing_people">rganizational Chart</string>
+<p><b>Bachelor of Science in Information Technology</b></p>
+<p><b>Purpose</b></p>
+<p>The College of Computer Studies aims to provide students with a standard-based curriculum that will meet the industry\'s need through a range of computer-based applications for different sectors of the society.</p>
+<p><b>Objectives</b></p>
+<p>Acquaint students to the concepts of the different programming languages and design algorithm through computer application.</p>
+<p>Enable the students to fully understand the computer system and its major components.</p>
+<p>Enable students understand and apply proper networking procedures and possible solutions to networking problems.</p>
+<p>Educate students and enhance their potentials in creating multimedia projects and integrate them with web development.</p>
+<p>Enable students to acquire and utilize knowledge in the various internet and web technologies.</p>
+
+<p><b>Associate in Computer Technology</b></p>
+<p><b>Purpose</b></p>
+<p>The College of Computer Studies aims to equip students with logical and technical knowledge and skills in progamming, web development and the internet by providing them with a curriculum that will enhance their potential in the field of computer technology.</p>
+<p><b>Objectives</b></p>
+<p>Enable students to the concepts of the different programming languages.</p>
+<p>Develop student\'s skills in learning programming techniques using appropriate computer languages.</p>
+<p>Enhance student\'s skills in doing research via the vast resources of the internet.</p>
+<p>Develop student\'s capability in web development and design.</p>
+<p>Develop student\'s potential in creating multimedia projects.</p>
+
+   ]]>
+    </string>
+    <!-- ccs End -->
+
+    <!-- caba -->
+    <string name="caba">
+<![CDATA[
+		<p><b>Vision</b></p>
+
+<p>College of Accountancy</p>
+<p>The College of Accountancy envisions to become a premiere college, producing qualified and competent future accountants.</p>
+
+<p>College of Commerce</p>
+<p>The College of Commerce envisions to become the center of development of business students and is committed to provide quality education attuned to meet the recent trends and demands of global competitivenes.</p>
+
+<p><b>Mission</b></p>
+
+<p>College of Accountancy</p>
+<p>To provide quality education for future accountants through a student centered teaching program, enhanced faculty competence gained thru series of continuing professional education (CPE), highly competent research staff, and extension programs and linkages with various industries.</p>
+
+<p>College of Commerce</p>
+<p>To provide quality training for future entrepreneurs through a competent teaching staff and adequate exposure to actual business world, and boosted by the efficient management of its business-preparation program.</p>
+
+<p><b>Goal</b></p>
+
+<p>College of Accountancy</p>
+<p>The College of Accountancy aims to produce graduates who are equipped with adequate technical knowledge, training and proficiency as entry level accountants capable of passing the CPA board examination and making positive contribution over their lifetime to the profession and society.</p>
+
+<p>College of Commerce</p>
+<p>The College of Commerce aims to produce quality and competent graduates who could easily find a job or be absorbed in the mainstream of the labor oriented sector and who have the capacity to grow and deal effectively with problems they will face as future economic managers.</p>
+
+<p><b>Objectives</b></p>
+
+<p>College of Accountancy</p>
+<p>In pursuit of the stated vision, mission and goals, the College of Accountancy strives:</p>
+
+<p>To produce Certified Public Accountants who are well-rounded educated individuals and exponents of moral and Filipino cultural values.</p>
+<p>To equip the students with adequate technical knowledge, training and proficiency as entry level accountants thru curricular programs attuned and responsive to the local and global needs.</p>
+<p>To provide the students with the foundation for building additional knowledge, experience and with maturity, for acquiring qualities that enhance professional competence and integrity.</p>
+<p>To provide a continuing faculty development program.</p>
+<p>To establish linkages with various industries for student training and development.</p>
+<p>To conduct extension programs and researches which contribute to the improvement of the quality of life.</p>
+
+<p>College of Commerce</p>
+<p>In pursuit of the stated vision, mission and goals, the College of Accountancy strives:</p>
+
+<p>To produce management and business practitioners who are well-rounded educated individuals and exponents of moral and Filipino cultural values.</p>
+<p>To equip the students through curricular programs, the required knowledge and skills about business organization, how they function in the practical context of business environment, the managerial decision making process, and relevant matters and issues besetting the business world in the light of recent trends and developments.</p>
+<p>To provide formal development programs that encourage the faculty members to keep up with new knowledge and techniques in their field, improve their teaching skills and course materials and continue their professional growth.</p>
+<p>To conduct innovative and relevant researches that contribute to the advancement of knowledge and skills.</p>
+<p>To continue with outreach and extension programs that aim to improve the standard of living in the local community.</p>
+<p>To foster harmonious linkages with business establishments for on-the-job training (OJT) and possible employment of students.</p>
+<p>To establish alumni organization among Commerce graduates to promote self-growth and socio-economic involvement.</p>
+
+<p><b>Courses Offered</b></p>
+         &#8226; Bachelor of Science in Business Administration <br />
+         major in:<br />
+         - Operations Management<br />
+         - Financial Management<br />
+         - Marketing Management<br />
+         - Human Resource Dev\’t Management <br />
+         - Business Economics<br />
+         - Management Accounting<br />
+         &#8226; Bachelor of Science in Office Administration<br />
+         &#8226; Bachelor of Science in Accountancy<br />
+   ]]>
+    </string>
+    <!-- caba End -->
+    <!-- artsandlanguage -->
+    <string name="artsandlanguage">
+<![CDATA[
+
+<p><b>Vision</b></p>
+<p>The College of Arts and Languages envisions producing students capable of communicating their ideas both in written and oral English with fluency and clarity leading them to be recognized worldwide.</p>
+
+<p><b>Mission</b></p>
+<p>The College of Arts and Languages exists primarily to provide sufficient training for students both in written and oral English. It molds and nurtures students’ minds to become confident and competitive in the field of business, medicine, education and other professions.</p>
+
+<p><b>Goal</b></p>
+<p>The College of Arts and Languages aims to facilitate its instructional capacity for the students’ development as to contribute to the goal structured by the university for the attainment of national development.</p>
+
+<p><b>Courses Offered</b></p>
+&#8226; Bachelor of Arts in Mass Communication<br />
+&#8226; Bachelor of Arts in English
+   ]]>
+</string>
+    <!-- artsandlaguage End -->
+    <!-- caregiver -->
+    <string name="caregiver">
+<![CDATA[
+<p><b>Vision</b></p>
+<p>To provide a well-rounded learning and training to future caregivers able to deliver comprehensive care, responsive to clients needs and be globally comparative.</p>
+
+<p><b>Mission</b></p>
+<p>To produce qualified, efficient and knowledgeable graduates who are intellectually capable, self-actualized and responsible members of the society.</p>
+
+
+<p><b>Objectives</b></p>
+1. To prepare his or her role as a caregiver<br />
+2. To equip them with the knowledge on the care of children<br />
+3. To be able to manage the home properly<br />
+4. To provide concern and care for children, clients with special needs<br />
+
+<p><b>Program Description</b></p>
+<p>The Caregiver training Program is an eight-month certificate program in a classroom and clinical setting. It is an intrinsic program conducted by highly selected and competent team of facilitators/trainers of specializations, where lectures, demonstration as well as return demonstration, culminating and related activities would definitely prepare the trainess to assume their responsibilities in a Canadian setting. Practical experience is also provided to further enhance their caring skills and help them become well-rounded individuals.</p>
+
+   ]]>
+    </string>
+    <!-- caregiver End -->
+    <!-- criminology -->
+    <string name="criminology">
+<![CDATA[
+<p><b>Vision</b></p>
+<p>The UCU - College of Criminology envisions as nationally renowned center of excellence in Region I and one among the country in Criminology Education.</p>
+
+
+<p><b>Goal</b></p>
+<p>Ensuring the attainment of empowered and competitive graduates through:</p>
+<p><b>QUALITY AND EXCELLENCE</b></p>
+<p>Promoting quality and relevant educational programs that meet national and international standards.</p>
+
+<p><b>Objectives</b></p>
+
+To attain comprehensive enrichment of programs the following are hereby formulated:<br />
+1.1 Establish adequate provisions of curricular programs, faculty instructional materials and facilities.<br />
+1.2 Provide updated and relevant institutional facilities for the benefit of the students as well as faculty members.<br />
+1.3 Encourage revitalize criminology student organizations.<br />
+1.4 Establish and maintain alternative learning system.<br />
+1.5 Upgrade the competence and strengthen the commitment of the faculty and staff. Work for equitable re-enumeration benefit and welfare.<br />
+1.6 Aspire the highest percentage of board examination passers.<br />
+1.7  To attain complete recognition of the College of  Criminology by the Commission on Higher Education.<br />
+   ]]>
+    </string>
+    <!-- criminology End -->
+    <!-- education -->
+    <string name="education">
+<![CDATA[
+<p><b>Vision</b></p>
+<p>The College of Education envisions to become a center of development in the field of elementary and secondary education, and is committed to character building in the development of globally-oriented educators, efficient professionals, motivated and principled leaders, and socially responsible citizens.</p>
+
+<p><b>Mission</b></p>
+<p>Operation on the core concepts of service and professional competence, the College of Education is known for, its pursuit of excellence in teacher education through its student-centered teaching, continuous faculty development, innovative and relevant researches, extension programs, and institutional linkages.</p>
+
+<p><b>Goal</b></p>
+<p>Through accessible and quality instruction, the College of Education aims to produce elementary, secondary and tertiary educators who are academically and proficiently competent, whose orientation is firmly anchored on transformative education, and who respond to the call for a more community-centered, dynamic and responsive service in the academe.</p>
+
+<p><b>Objectives</b></p>
+
+&#8226; In pursuit of the stated vision, mission and goals, the College of Education strives:<br />
+&#8226; To train students to become proficient and skilled elementary and high school teachers through circular programs and which are responsive to local and global market needs and societal services;<br />
+&#8226; To provide accessible, affordable, and transformative education in the teacher training programs;<br />
+&#8226; To equip student to become academically competent and professionally skilled elementary and high school teachers through trainings that promote scholastic excellence, cultural enrichment, personal discipline, moral character, critical thinking and leadership capabilities;<br />
+&#8226; To improve instructional competence and expertise of staff through seminars, conferences, workshops and provisions for scholarships and the likes;<br />
+&#8226; To perform extension services and research works which the college may deem essential in improving the quality of life;<br />
+&#8226; To initiate links with the alumni for self-growth and community involvement; and<br />
+&#8226; To establish linkages with the outside institutions for academic support, socio-economic participation, political consciousness, and cultural development.<br />
+<p><b>Courses Offered</b></p>
+&#8226; Bachelor of Science in Secondary Education<br />
+Major in:<br />
+- English<br />
+- Mathematics<br />
+- General Science<br />
+- Social Studies<br />
+- Music, Arts and Physical Education (MAPE)<br />
+- Filipino<br />
+&#8226; Bachelor of Science in Elementary Education<br />
+&#8226; Bachelor of Science in Early Childhood Education<br />
+   ]]>
+    </string>
+    <!-- Education End -->
+    <!-- graduatestudies -->
+    <string name="graduatestudies">
+<![CDATA[
+<p><b>Vision</b></p>
+<p>The Graduate School is a dynamic and responsive institution of advance education recognized for its distinctive competence and excellence in professional education, leadership in research, educational technologies, and community service.</p>
+
+<p><b>Mission</b></p>
+<p>The Urdaneta City University shall provide advance instruction, professional training, conduct scientific researches and studies in educational technology and community service.</p>
+
+<p><b>Goal</b></p>
+<p>To provide substance and direction to its mission, the Urdaneta City University Graduate School shall pursue the following instructional goals:</p>
+
+<p>Instruction – Shall assert quality leadership role in graduate education and shall strive for excellence in the professional development of leaders, administrators, educational managers, researchers and professional teachers.</p>
+<p>Research – Shall produce quality education research outputs in consonance with community, regional, and institutional goals.</p>
+<p>Extension – It shall establish an extension center that disseminates and transfers educational technologies and social development to recipient schools and communities.</p>
+
+<p><b>Objectives</b></p>
+<p>To establish itself and maintain leadership in the development and testing of processes for the production of educational materials and resources for the development of the community.</p>
+<p>To offer quality instruction, facilitated by advance technologies and methodologies, strategies and techniques produced and utilized by qualified and competent faculty and support staff.</p>
+<p>To provide professionals with a high degree of research capability, thereby producing outputs which will open up new frontiers of human knowledge and usher in new concepts, technologies, visions and opportunities which they can use in their role as change agents in their chosen fields of specialization.</p>
+<p>To extend research of the Graduate School to the professional community and public through the application of the relevant studies in the improvement of the quality of life of the Filipinos.</p>
+   ]]>
+    </string>
+    <!-- graduatestudies End -->
+    <!-- hrm -->
+    <string name="hrm">
+<![CDATA[
+
+<p><b>Vision</b></p>
+<p>To be the center of training and assessment in hospitality and tourism industry thereby preparing its students / trainees to be competent in global competitive market and industry.</p>
+
+<p><b>Mission</b></p>
+<p>To equip students/trainees with skills and knowledge that will enable them to manage the requirements of the hospitality and tourism industry anywhere in the world.</p>
+
+<p><b>Goal</b></p>
+<p>The School of Hotel and Restaurant Services/Management and Tourism aims to:</p>
+
+<p>To offer a responsive and world class curriculum that will prepare students to be at their best in performing the various tasks and skills expected to them in the tourism industry/hospitality sectors.</p>
+<p>To provide high quality teaching and advising through faculty who are certified trainers by the authority and industry.</p>
+<p>To provide abundant opportunities for students to acquire knowledge and skills in the latest trends in the hospitality industry through extensive training with industry involvements.</p>
+<p>To provide an abundance of work experiences through apprenticeship programs, as well as local and international industry linkages .</p>
+<p>To develop managers, entrepreneurs and business in the hospitality and tourism industry in Pangasinan. To cultivate and enrich the value of hospitality in the City of Urdaneta specially in the whole province of Pangasinan.</p>
+
+
+<p><b>Objectives</b></p>
+<p>Aims to provide students with necessary knowledge to strategically manage hotel and restaurants in an increasingly complex and competitive business sector.</p>
+<p>Graduates of Hotel and Restaurant Services and Management and Tourism shall possess the following skills and professional competencies:</p>
+
+Resources:<br />
+&#8226; identifies goal-relevant activities, ranks them, allocates resources<br />
+&#8226; Interpersonal: works with others<br />
+&#8226; Information: acquires and evaluates information<br />
+&#8226; Systems: understands complex interrelationships<br />
+&#8226; Technology: works with a variety of technologies<br />
+
+<p>Performs work activities effectively and efficiently to the standards expected in the operation required in the tourism Industry/hospitality sectors</p>
+<p>Undertakes task, functions, duties and activities in the operation of the hotels, restaurants, travel, government and non-government agencies in accordance with the competency standards</p>
+<p>Analyzes situation, identifies problems, formulates solutions and implements corrective and/or mitigating measures and action.</p>
+
+<p>Welcome to the Urdaneta City University School of Hotel and Restaurant Services/Management and Tourism! We are delighted that you have decided to join us and pleased that we will have this opportunity to share our commitment about our hotel and Restaurant services/management and Tourism programs. As you go through our programs you will find that it is filled with many opportunities that allow you to become dynamic and competitive in this industry. Our faculty are certified trainers in the industry and ready to help you along the way.</p>
+<p>If there is anything we can do for you personally, please feel free to come and see us. We would like to hear from you and talk to you about your plans for the future. Welcome to URDANETA CITY UNIVERSITY, welcome to the School of Hotel and Restaurant Services/Management and Tourism!</p>
+]]>
+</string>
+    <!-- hrm End -->
+    <!-- midwife starts -->
+<string name="midwife">
+<![CDATA[
+<p><b>Vision</b></p>
+<p>To produce graduate and future professional midwives who would contribute to the well-being and development of the country and humanity through the advancement of their knowledge and experience and lead a life that is honorable, exemplary and globally competitive.</p>
+
+<p><b>Mission</b></p>
+<p>To provide a comprehensive learning and training program for Midwifery students for them to become effective and efficient primary health providers in giving safe delivery assistanace to maternal and child health care services.</p>
+]]>
+</string>
+    <!-- midwife ends -->
+    <!-- nursing starts -->
+<string name="nursing">
+<![CDATA[
+<p><b>Vision</b></p>
+<p>The College of Nursing of the Urdaneta City University was envisioned to become a center of excellence for the development of globally competitive, self-realized, socially responsible, morally upright professional nurses efficient in their fields of endeavor towards the transformation of a healthy nation.</p>
+
+<p><b>Mission</b></p>
+<p>In the pursuit of its commitments, the college focuses on the holistic development of the students to become competent, committed, dedicated nurses for a quality delivery of health care to meet the health needs of the individual, family and the community along promotion of health, prevention of illness, restoration of health and alleviation of suffering.</p>
+
+<p><b>Goal</b></p>
+<p>The College of Nursing focuses on the total formation of the students both in the skills needed in the profession of nursing as well as the values formation of the students through excellence in nursing education, leadership, scholarship and innovative practice. The college aims to produce nurses who can situate their service career in the broader context of their personal, spiritual and religious development and its influence on the community where they belong.</p>
+
+<p><b>Objectives</b></p>
+<p>The College of Nursing is committed to provide quality values-oriented education and to and to produce a globally-competent nurse who shall make a big difference in the Nursing profession.</p>
+<p>In concordance with its vision, mission and goal, the College of Nursing strives:</p>
+<p>To provide quality education that will impart knowledge and develop sound moral values.</p>
+<p>To prepare strident nurses as primary care providers in all settings.</p>
+<p>To improve the student’s communication skills and strategies for effective health education.</p>
+<p>To equip the student with the necessary knowledge and skills in utilizing the nursing process to promote safe and quality patient care.</p>
+<p>To enhance understanding of the environment through nursing research.</p>
+<p>To develop the student’s ability to adapt, organize, and manage advancements in technology and resources.</p>
+<p>To create the student’s awareness and observance of the national and international ethico-moral standards.</p>
+<p>To strengthen the spiritual formation of all students.</p>
+<p>To mold the student’s positive attitude and commitment to lifelong personal and professional growth.</p>
+
+<p><b>Courses Offered</b></p>
+&#8226; Bachelor of Science in Nursing<br />
+&#8226; Health Care Services NC II
+]]>
+</string>
+    <!-- nursing ends -->
+    <!-- pharmacy starts-->
+<string name="pharmacy">
+<![CDATA[
+<p><b>Vision</b></p>
+<p>The College of Pharmacy shall empower students with the scientific wisdom, skills, attitude and character necessary to develop pharmacists who can provide competent service in the various areas of pharmacy practice such as: Community, Industrial, Hospital, Research, Academe, Regulatory and in such other arena where pharmaceutical expertise is needed.</p>
+
+<p><b>Mission</b></p>
+<p>A premier academic institution in the field of Pharmacy Education producing pharmacists who are qualified, skilled and at par with the world’s best.</p>
+
+
+<p><b>Objectives</b></p>
+<p>Pharmacy graduates shall be able to:</p>
+<p>Manage drug establishments based on sound business principles.</p>
+<p>Provide quality medicines as well as other Health care services</p>
+<p>Provide timely and appropriate Drug Information needed by other health professionals and patients.</p>
+<p>Application of the state of the art methods, processes and technologies in the area of quality assurance, production, storage and the data-banking of drugs, foods, cosmetics and medical devices.</p>
+<p>Engage in accurate and relevant scientific researches.</p>
+<p>Be effective and efficient in the delivery of pharmaceutical services.</p>
+<p>Discover, develop and produce new drugs for prevention, diagnosis, mitigation and treatment of sickness and illnesses.</p>
+<p>Abide with lawful and legal pharmaceutical practices and processes.</p>
+
+<p><b>Course Offered</b></p>
+<p>Bachelor of Science in Pharmacy</p>
+   ]]>
+    </string>
+    <!-- pharmacy ends -->
+    <!-- engg starts-->
+    <string name="engg">
+            <![CDATA[
+                <p><b>Vision</b></p>
+                <p>The mission of the College of Engineering and Architecture is to provide students with the best possible engineering education whilst promoting ethical and spiritual values. The college is dedicated to equip students with the knowledge, technical skills, and values that prepare them to excel as engineers and leaders in their profession. The faculty members endeavor to serve the community through research and supervision of industrial projects</p>
+
+                <p><b>Mission</b></p>
+                <p>Urdaneta City University will be known as one of the leading regional institutions in engineering education. Its graduates will be well prepared to excel in their engineering fields, and to adapt to changes in the technological sector. Its faculty will create an environment conducive to student-centered learning and collaborative research.</p>
+
+                <p><b>Courses Offered</b></p>
+                &#8226; Bachelor of Science in Electrical Engineering< br />
+                &#8226; Bachelor of Science in Civil Engineering< br />
+                &#8226; Bachelor of Science in Mechanical Engineering< br />
+                &#8226; Bachelor of Science in Architecture< br />
+                &#8226; Bachelor of Science in Computer Engineering< br />
+                &#8226; Bachelor of Science in Electronics and Communication Engineering< br />
+            ]]>
+    </string>
+    <!-- engg ends -->
+    <!-- math starts-->
+    <string name="math">
+    </string>
+    <!-- math ends -->
+    <!-- sw starts-->
+    <string name="sw">
+        <![CDATA[
+                <p><b>Vision</b></p>
+                <p>The vision is to become a leading institution for the advancement of social work education, promoting social change, empowerment and problem-solving in human relationships for diverse society.</p>
+                <p>Mission</b></p>
+                <p>The mission of the UCU College of Social Work is to develop leaders through teaching, research and service and aims to advance growth and empowerment of people, development and social progress of communities, and greater justice and equality of societies where there exist oppression, discrimination, and inequality amongst marginalized individuals, families, groups and communities.</p>
+
+                <p><b>Goal</b></p>
+                &#8226; To prepare competent graduates for leadership and generalist practice of social work with individuals, families, groups and communities.<br />
+                &#8226; To develop Professional Social Workers who provide leadership and service to communities and organizations to improve service delivery to oppressed and at risk populations, promoting social justice for the well-being of all people.<br />
+
+                <p><b>Objectives</b></p>
+                <p>Adhering to the Global Standards for Social Work education and training, the following are the competency standards for the students to acquire and apply:</p>
+
+                <p>knowledge of and skills in the generalist helping process and planned change process within the micro-meso-macro practice continuum for the purposes of developmental, protective, preventive and/or therapeutic intervention,</p>
+                <p>critical understanding of social work origin, development, and purposes unique to the Philippine experience,</p>
+                <p>critical understanding of how global and national socio-structural inadequacies, discrimination, oppression, and socio-economic and political injustice impact on human functioning and development,</p>
+                <p>knowledge of human behavior and the social environment, with particular emphasis on the person-in-environment transaction, life span development and the interaction among biological, psychological, socio-structural, gender, cultural and spiritual factors in shaping human development and behavior,</p>
+                <p>knowledge of social welfare policies, programs, and services of the locality, country and/or region,</p>
+                <p>knowledge of, and skills in social work research, including ethical use of   research, traditional local positivism and alternative research paradigms, and critical appreciation of the use of research in social work practice</p>
+                <p>sufficient knowledge of related occupations and professions and ability to work with multidisciplinary/interdisciplinary/transdisciplinary teams to facilitate inter- professional collaboration and teamwork,</p>
+                <p>development of critical self-reflective and ethically active practitioners,</p>
+                <p>ability to practice in various contexts, e.g. respect for diverse ethnic and cultural groups, including those with special needs,</p>
+                <p>ability to network, mobilize resources and develop partnerships,</p>
+                <p>ability to use supervision for personal and professional growth,</p>
+                <p>application of social work values, ethical principles, knowledge and skills to address and transform social inequities,</p>
+
+                <p>Specific Occupations or Trades of Social Workers</p>
+
+                <p>Social work graduates work in the private, public or business sectors, addressing social needs, issues and concerns of various sectors such as children, youth in conflict with the law, peasants, workers, women, urban poor, migrants, indigenous peoples and others.</p>
+                <p>Among the social work fields of practice are family and children\'s services, health and rehabilitation, mental health, adult and juvenile corrections, gerontology, disaster response and management, occupational health and safety, forensic social work, community development, human resource development, education, and international social welfare.</p>
+                <p> Specific occupations social work graduates may go into:</p>
+                &#8226; Casework<br />
+                &#8226; Groupwork<br />
+                &#8226; Social work counseling<br />
+                &#8226; Community organizing<br />
+                &#8226; Social administration<br />
+                &#8226; Supervision<br />
+                &#8226; Policy/legislative advocacy<br />
+                &#8226; Social welfare planning<br />
+                &#8226; Social work agency management<br />
+                &#8226; Program/ project development and management<br />
+                &#8226; Human resource development, including teaching<br />
+                &#8226; Social work practice with specific client populations with special needs and in special circumstances (e.g. the elderly, people with disabilities, people with HIV-AIDS, youth in conflict with the law, alcohol and substance abusers, survivors of human rights violations as well as sexual and physical abuse)<br />
+                &#8226; International social work practice i.e., social development work at the regional and international settings (e.g. consortia with UN agencies and other humanitarian endeavors; direct practice and advocacy on migration and refugee issues, international trafficking, ecological issues; regional international settings and   humanitarian crisis)
+           ]]>
+        </string>
+    <!-- sw ends -->
+    <!-- law starts-->
+    <string name="law">
+    </string>
+    <!-- law ends -->
 </resources>
 
 

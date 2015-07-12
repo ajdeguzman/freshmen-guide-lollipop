@@ -120,11 +120,11 @@ public class NavigationDrawerFragment extends Fragment implements NavigationDraw
         List<NavigationItem> items = new ArrayList<NavigationItem>();
         items.add(new NavigationItem(getString(R.string.home), getResources().getDrawable(R.mipmap.ic_home)));
         items.add(new NavigationItem(getString(R.string.book), getResources().getDrawable(R.mipmap.ic_book)));
-        items.add(new NavigationItem(getString(R.string.map), getResources().getDrawable(R.mipmap.ic_place)));
         items.add(new NavigationItem(getString(R.string.academics), getResources().getDrawable(R.mipmap.ic_school)));
         items.add(new NavigationItem(getString(R.string.org), getResources().getDrawable(R.mipmap.ic_orgchart)));
         items.add(new NavigationItem(getString(R.string.student), getResources().getDrawable(R.mipmap.ic_people)));
         items.add(new NavigationItem(getString(R.string.hymn), getResources().getDrawable(R.mipmap.ic_music)));
+        items.add(new NavigationItem(getString(R.string.map), getResources().getDrawable(R.mipmap.ic_place)));
         items.add(new NavigationItem(getString(R.string.contact), getResources().getDrawable(R.mipmap.ic_call)));
         return items;
     }

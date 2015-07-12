@@ -79,18 +79,16 @@
             fab:fab_colorNormal="@color/white"
             fab:fab_colorPressed="@color/white_pressed"
             fab:fab_size="mini"/>
-
     </com.getbase.floatingactionbutton.FloatingActionsMenu>
 </RelativeLayout>
 
-    <com.melnykov.fab.ObservableScrollView
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:id="@+id/scrollInfoContact"
         android:layout_below="@+id/textView34"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
-
         <LinearLayout
             android:orientation="vertical"
             android:layout_marginLeft="5dp"
@@ -104,7 +102,6 @@
             android:layout_below="@+id/textView34"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true">
-
             <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="fill_parent"
@@ -115,7 +112,6 @@
                 android:padding="5dp"
                 android:background="#FFFFFF"
                 android:paddingLeft="0dp">
-
                 <ImageView
                     android:id="@+id/ucuLocation"
                     android:layout_width="30dp"
@@ -123,7 +119,6 @@
                     android:layout_height="30dp"
                     android:src="@mipmap/ic_place"
                     android:layout_marginBottom="0dp"/>
-
                 <TextView
                     android:id="@+id/textView2"
                     android:textColor="#000"
@@ -145,7 +140,6 @@
                 android:padding="5dp"
                 android:background="#FFFFFF"
                 android:paddingLeft="0dp">
-
                 <ImageView
                     android:id="@+id/ucuLocation2"
                     android:layout_width="30dp"
@@ -153,7 +147,6 @@
                     android:layout_marginRight="5dp"
                     android:src="@mipmap/ic_website"
                     android:layout_marginBottom="10dp"/>
-
                 <TextView
                     android:id="@+id/textView22"
                     android:textColor="#000"
@@ -163,7 +156,6 @@
                     android:padding="5dp"
                     android:text="http://www.ucu.edu.ph"
                     android:textSize="15sp" />
-
             </LinearLayout>
             <LinearLayout
                 android:orientation="horizontal"
@@ -175,7 +167,6 @@
                 android:padding="5dp"
                 android:background="#FFFFFF"
                 android:paddingLeft="0dp">
-
                 <ImageView
                     android:id="@+id/ucuWebsite"
                     android:layout_width="30dp"
@@ -183,7 +174,6 @@
                     android:layout_marginRight="5dp"
                     android:src="@mipmap/ic_call"
                     android:layout_marginBottom="10dp"/>
-
                 <TextView
                     android:id="@+id/textView3"
                     android:textColor="#000"
@@ -191,9 +181,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:padding="5dp"
-                    android:text="(+632)075-6380"
+                    android:text="(075) 568 7612"
                     android:textSize="15sp" />
             </LinearLayout>
         </LinearLayout>
-    </com.melnykov.fab.ObservableScrollView>
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
 </RelativeLayout>

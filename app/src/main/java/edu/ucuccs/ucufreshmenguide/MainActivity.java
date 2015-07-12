@@ -49,27 +49,27 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerC
                 t.commit();
                 break;
             case 2:
-                t.replace(R.id.container, fMap);
-                t.addToBackStack(null);
-                t.commit();
-                break;
-            case 3:
                 t.replace(R.id.container, fCourses);
                 t.addToBackStack(null);
                 t.commit();
                 break;
-            case 4:
+            case 3:
                 t.replace(R.id.container, fOrgChart);
                 t.addToBackStack(null);
                 t.commit();
                 break;
-            case 5:
+            case 4:
                 t.replace(R.id.container, fstudOrg);
                 t.addToBackStack(null);
                 t.commit();
                 break;
-            case 6:
+            case 5:
                 t.replace(R.id.container, fHymn);
+                t.addToBackStack(null);
+                t.commit();
+                break;
+            case 6:
+                t.replace(R.id.container, fMap);
                 t.addToBackStack(null);
                 t.commit();
                 break;

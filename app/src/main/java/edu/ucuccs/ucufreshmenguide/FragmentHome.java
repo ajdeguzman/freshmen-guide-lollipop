@@ -1,33 +1,17 @@
 package edu.ucuccs.ucufreshmenguide;
 
+import android.annotation.SuppressLint;
 import android.app.Fragment;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.ActionBarActivity;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-
-import java.io.UnsupportedEncodingException;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import android.annotation.SuppressLint;
-import android.app.Activity;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.os.Bundle;
-import android.view.Menu;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.android.volley.Cache;
 import com.android.volley.Cache.Entry;
@@ -36,6 +20,19 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
+import com.dexafree.materialList.cards.BigImageButtonsCard;
+import com.dexafree.materialList.cards.OnButtonPressListener;
+import com.dexafree.materialList.cards.WelcomeCard;
+import com.dexafree.materialList.model.Card;
+import com.dexafree.materialList.view.MaterialListView;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class FragmentHome extends Fragment {
@@ -45,7 +42,7 @@ public class FragmentHome extends Fragment {
     private List<FeedItem> feedItems;
     SwipeRefreshLayout mSwipeRefreshLayout;
     private String URL_FEED = "http://ajdeguzman.x10.mx/api/feed.json";
-
+    WelcomeCard card;
     @SuppressLint("NewApi")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -53,9 +50,48 @@ public class FragmentHome extends Fragment {
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         listView = (ListView) rootView.findViewById(R.id.list);
+        final MaterialListView mListView = (MaterialListView) rootView.findViewById(R.id.material_listview);
         mSwipeRefreshLayout = (SwipeRefreshLayout) rootView.findViewById(R.id.activity_main_swipe_refresh_layout);
 
         feedItems = new ArrayList<FeedItem>();
+        /*card = new WelcomeCard(getActivity());
+        card.setTitle("Welcome to UCU!");
+        card.setSubtitle("A University where character is utmost");
+        card.setDescription("Browse the guide now");
+        card.setButtonText("OKAY");
+        card.setDismissible(true);
+        card.setBackgroundColor(Color.parseColor("#0F6C3C"));
+        card.setTitleColor(Color.parseColor("#FFFFFF"));
+        card.setSubtitleColor(Color.parseColor("#FFFFFF"));
+        card.setDescriptionColor(Color.parseColor("#FFFFFF"));
+        card.setButtonTextColor(Color.parseColor("#FFFFFF"));
+        mListView.add(card);*/
+
+        BigImageButtonsCard card2 = new BigImageButtonsCard(getActivity());
+        card2.setTitle("Welcome to UCU!");
+        card2.setDescription("A University Where character is utmost!ploy Please rate our app");
+        card2.setLeftButtonText("LATER");
+        card2.setRightButtonText("OKAY");
+        card2.setDrawable(R.mipmap.ucu_header);
+        card2.setOnRightButtonPressedListener(new OnButtonPressListener() {
+            @Override
+            public void onButtonPressedListener(View view, Card card) {
+                final String my_package_name = "edu.ucuccs.ucufreshmenguide";
+                String url = "";
+
+                try {
+                    getActivity().getPackageManager().getPackageInfo("com.android.vending", 0);
+                    url = "market://details?id=" + my_package_name;
+                } catch ( final Exception e ) {
+                    url = "https://play.google.com/store/apps/details?id=" + my_package_name;
+                }
+                final Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_WHEN_TASK_RESET);
+                startActivity(intent);
+            }
+        });
+        mListView.add(card2);
+
 
         listAdapter = new FeedListAdapter(getActivity(), feedItems);
         listView.setAdapter(listAdapter);

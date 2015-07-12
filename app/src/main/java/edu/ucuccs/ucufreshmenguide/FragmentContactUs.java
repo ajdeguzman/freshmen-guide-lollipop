@@ -17,8 +17,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
 import com.getbase.floatingactionbutton.FloatingActionsMenu;
-import com.melnykov.fab.FloatingActionButton;
-import com.melnykov.fab.ObservableScrollView;
+import com.github.ksoichiro.android.observablescrollview.ObservableScrollView;
 
 import java.util.List;
 
@@ -26,7 +25,7 @@ public class FragmentContactUs extends Fragment {
     public static final String TAG = "handbook";
 
     private ArrayAdapter<String> adapter;
-    private FloatingActionButton btnMenuContacts;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -56,7 +55,7 @@ public class FragmentContactUs extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent callIntent = new Intent(Intent.ACTION_CALL);
-                callIntent.setData(Uri.parse("tel:568 2475"));
+                callIntent.setData(Uri.parse("tel:568 7612"));
                 startActivity(callIntent);
             }
         });
@@ -80,26 +79,21 @@ public class FragmentContactUs extends Fragment {
             @Override
             public void onClick(View v) {
                 Intent email = new Intent(Intent.ACTION_SEND);
-                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"allanpaulguiting@gmail.com"});
+                email.putExtra(Intent.EXTRA_EMAIL, new String[]{"urdanetacityuniversity@yahoo.com"});
                 email.setType("message/rfc822");
                 startActivity(Intent.createChooser(email, "Choose an Email Client"));
-
             }
         });
-        showToast("Pinch Map to Zoom");
         return rootView;
     }
-    public static boolean isMailClientPresent(Context context){
+    public static boolean isMailClientPresent(Context context) {
         Intent intent = new Intent(Intent.ACTION_SEND);
         intent.setType("text/html");
         final PackageManager packageManager = context.getPackageManager();
         List<ResolveInfo> list = packageManager.queryIntentActivities(intent, 0);
-        if(list.size() == 0)
+        if (list.size() == 0)
             return false;
         else
             return true;
-    }
-    public void showToast(String msg){
-        Toast.makeText(getActivity(), msg, Toast.LENGTH_SHORT).show();
     }
 }

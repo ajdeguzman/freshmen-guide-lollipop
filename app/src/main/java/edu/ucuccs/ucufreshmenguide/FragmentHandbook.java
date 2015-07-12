@@ -30,7 +30,7 @@ public class FragmentHandbook extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_handbook,container, false);
+        View rootView = inflater.inflate(R.layout.fragment_handbook, container, false);
         getActivity().setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         expListView = (ExpandableListView) rootView.findViewById(R.id.listView);
@@ -40,7 +40,7 @@ public class FragmentHandbook extends Fragment {
         listAdapter = new ExpandableListAdapter(getActivity(), listDataHeader,
                 listDataChild);
 
-        // setting list adapter
+
         expListView.setAdapter(listAdapter);
 
         expListView.setOnGroupClickListener(new OnGroupClickListener() {
@@ -48,7 +48,7 @@ public class FragmentHandbook extends Fragment {
             @Override
             public boolean onGroupClick(ExpandableListView arg0, View arg1,
                                         int arg2, long arg3) {
-                // TODO Auto-generated method stub
+
                 return false;
             }
 
@@ -56,9 +56,10 @@ public class FragmentHandbook extends Fragment {
 
         expListView.setOnGroupExpandListener(new OnGroupExpandListener() {
             int previousGroup = -1;
+
             @Override
             public void onGroupExpand(int groupPosition) {
-                if(groupPosition != previousGroup)
+                if (groupPosition != previousGroup)
                     expListView.collapseGroup(previousGroup);
                 previousGroup = groupPosition;
 
@@ -66,7 +67,6 @@ public class FragmentHandbook extends Fragment {
         });
 
         expListView.setOnGroupCollapseListener(new OnGroupCollapseListener() {
-
             @Override
             public void onGroupCollapse(int groupPosition) {
 
@@ -77,20 +77,15 @@ public class FragmentHandbook extends Fragment {
 
             @Override
 
-            public boolean onChildClick(ExpandableListView parent, View v,
-                                        int groupPosition, int  childPosition, long id) {
-                // TODO Auto-generated method stub
-				/**/
+            public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
                 listDataHeader.get(groupPosition);
                 listDataChild.get(childPosition);
 
                 switch (groupPosition) {
-
                     case 0:
                         switch (childPosition) {
                             case 0: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 0;
 
                                 i.putExtra("index_key", index);
@@ -100,24 +95,21 @@ public class FragmentHandbook extends Fragment {
 
                             }
                             case 1: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 1;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 2: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 2;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 3: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 3;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -129,48 +121,42 @@ public class FragmentHandbook extends Fragment {
                     case 1:
                         switch (childPosition) {
                             case 0: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 4;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 1: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 5;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 2: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 6;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 3: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 7;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 4: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 8;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 5: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 9;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -181,64 +167,56 @@ public class FragmentHandbook extends Fragment {
                     case 2: {
                         switch (childPosition) {
                             case 0: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 10;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 1: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 11;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 2: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 12;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 3: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 13;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 4: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 14;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 5: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 15;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 6: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 16;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
                                 break;
                             }
                             case 7: {
-                                Intent i = new Intent(getActivity(),
-                                        ViewingPolicy.class);
+                                Intent i = new Intent(getActivity(), ViewingPolicy.class);
                                 int index = 17;
                                 i.putExtra("index_key", index);
                                 startActivity(i);
@@ -479,7 +457,6 @@ public class FragmentHandbook extends Fragment {
                                 break;
 
                             }
-
                         }
                         break;
                     }
@@ -491,11 +468,11 @@ public class FragmentHandbook extends Fragment {
         });
 
         expListView.expandGroup(0);
-
         return rootView;
     }
+
     private void prepareListData() {
-        // TODO Auto-generated method stub
+
         listDataHeader = new ArrayList<String>();
         listDataChild = new HashMap<>();
 
@@ -555,12 +532,12 @@ public class FragmentHandbook extends Fragment {
         s5.add("Recognition");
         s5.add("Printing and Circulation");
         s5.add("Editorial Board and Staff Selection");
-        // Adding child data for Section6
+
         List<String> s6 = new ArrayList<String>();
         s6.add("General Policies");
         s6.add("Specific Policies");
 
-        // Adding child data for Sectio7
+
         List<String> s7 = new ArrayList<String>();
         s7.add("General Policy");
         s7.add("Student Discipline");
